@@ -1,0 +1,12 @@
+[
+    {
+        "roomid": 0,
+        "floor": 0,
+        "roomtype": 0,
+        "room_left": 0,
+        "room_right": 0,
+        "room_up": 0,
+        "room_down": 0,
+        "visited": false
+    }
+]

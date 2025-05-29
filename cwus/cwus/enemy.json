@@ -1,0 +1,8 @@
+[
+    {
+        "enemyId": 0,
+        "enemyAttacks": [ 0, 1 ],
+        "enemyName": "goblin",
+        "enemyHp": 10
+    }
+]

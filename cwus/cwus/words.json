@@ -1,0 +1,29 @@
+[
+    {
+        "word_id": 0,
+        "word_name": "heal",
+        "target": 0,
+        "dmg": -2,
+        "periodic_dmg": 0,
+        "description": "you healed yourself for 2 hp!",
+        "enemydescription": " healed themselves for 2 hp!"
+    },
+    {
+        "word_id": 1,
+        "word_name": "rod",
+        "target": 1,
+        "dmg": 2,
+        "periodic_dmg": 0,
+        "description": "you hit enemy with the rod! It deals 2 damage!",
+        "enemydescription": " hits you with the rod! It deals 2 damage!"
+    },
+    {
+        "word_id": 2,
+        "word_name": "crucifixion",
+        "target": 1,
+        "dmg": 100,
+        "periodic_dmg": 0,
+        "description": "casting crucifixion handsome? what a cruelty...(250 damage and 10 periodic damage is dealt.)",
+        "enemydescription": " Jesus-Christed you.(250 damage and 10 periodic damage is dealt.)"
+    }
+]
