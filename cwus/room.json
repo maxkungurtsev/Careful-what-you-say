@@ -1,0 +1,35 @@
+[ 
+  {
+    "roomid": 0,
+    "floor": 0,
+    "room_type": 0,
+    "room_left_id": 1,
+    "room_right_id": -1,
+    "room_up_id": -1,
+    "room_down_id": -1,
+    "is_first": true,
+    "is_last": false
+  },
+  {
+    "roomid": 1,
+    "floor": 0,
+    "room_type": 2,
+    "room_left_id": -1,
+    "room_right_id": 0,
+    "room_up_id": -1,
+    "room_down_id": -1,
+    "is_first": false,
+    "is_last": true
+  },
+  {
+    "roomid": 2,
+    "floor": 1,
+    "room_type": 2,
+    "room_left_id": -1,
+    "room_right_id": -1,
+    "room_up_id": -1,
+    "room_down_id": -1,
+    "is_first": true,
+    "is_last": false
+  }
+]

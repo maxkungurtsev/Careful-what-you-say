@@ -1,0 +1,28 @@
+[
+  {
+    "floor": 0,
+    "spawn_list": [
+      {
+        "entity_id": -1,
+        "attack_pool": [],
+        "name": "You",
+        "max_hp": 20,
+        "chance": 0
+      },
+      {
+        "entity_id": 0,
+        "attack_pool": [ 1 ],
+        "name": "goblin",
+        "max_hp": 10,
+        "chance": 10
+      },
+      {
+        "entity_id": 1,
+        "attack_pool": [ 0, 1, 2 ],
+        "name": "goblin mage",
+        "max_hp": 10,
+        "chance": 0
+      }
+    ]
+  }
+]
