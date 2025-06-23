@@ -1,0 +1,43 @@
+[
+  {
+    "floor": 0,
+    "loot_list": [
+      {
+        "loot_type": 2,
+        "amount_or_id": 1,
+        "chance": 10,
+        "price": 10
+      },
+      {
+        "loot_type": 0,
+        "amount_or_id": 10,
+        "chance": 10,
+        "price": 10
+      },
+      {
+        "loot_type": 1,
+        "amount_or_id": 1,
+        "chance": 10,
+        "price": 10
+      }
+    ]
+  },
+  {
+    "floor": 1,
+    "loot_list": [
+      {
+        "loot_type": 1,
+        "amount_or_id": 25,
+        "chance": 50,
+        "price": 100
+      },
+      {
+        "loot_type": 2,
+        "amount_or_id": 1,
+        "chance": 20,
+        "price": 10
+      }
+
+    ]
+  }
+]

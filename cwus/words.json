@@ -1,0 +1,32 @@
+[
+  {
+    "word_id": 0,
+    "word_name": "heal",
+    "cast_on_enemy": false,
+    "dmg": -2,
+    "periodic_dmg": 0,
+    "add_evade": false,
+    "description": "you healed yourself for 2 hp!",
+    "enemy_description": " healed themselves for 2 hp!"
+  },
+  {
+    "word_id": 1,
+    "word_name": "rod",
+    "cast_on_enemy": true,
+    "dmg": 2,
+    "periodic_dmg": 0,
+    "add_evade": false,
+    "description": "you hit enemy with the rod! It deals 2 damage!",
+    "enemy_description": " hits you with the rod! It deals 2 damage!"
+  },
+  {
+    "word_id": 2,
+    "word_name": "dor",
+    "cast_on_enemy": true,
+    "dmg": 5,
+    "periodic_dmg": 0,
+    "add_evade": false,
+    "description": "ahh, classic.",
+    "enemy_description": " casts fireball!"
+  }
+]
