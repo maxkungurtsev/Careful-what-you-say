@@ -1,32 +1,1082 @@
 [
   {
     "word_id": 0,
-    "word_name": "heal",
-    "cast_on_enemy": false,
-    "dmg": -2,
-    "periodic_dmg": 0,
+    "word_name": "ablaze",
+    "cast_on_enemy": true,
+    "dmg": 2,
+    "periodic_dmg": 4,
     "add_evade": false,
-    "description": "you healed yourself for 2 hp!",
-    "enemy_description": " healed themselves for 2 hp!"
+    "description": "You set enemy ablaze!",
+    "enemy_description": " sets you ablaze!"
   },
   {
     "word_id": 1,
+    "word_name": "absorb",
+    "cast_on_enemy": false,
+    "dmg": -4,
+    "periodic_dmg": 0,
+    "add_evade": true,
+    "description": "You absorb energy from attacks and air itself!",
+    "enemy_description": " absorbs energy from attacks and air itself!"
+  },
+  {
+    "word_id": 2,
+    "word_name": "allergy",
+    "cast_on_enemy": true,
+    "dmg": 0,
+    "periodic_dmg": 5,
+    "add_evade": false,
+    "description": "You cause an allergic reaction in the enemy!",
+    "enemy_description": " causes an allergic reaction in you!"
+  },
+  {
+    "word_id": 3,
+    "word_name": "attack",
+    "cast_on_enemy": true,
+    "dmg": 4,
+    "periodic_dmg": 0,
+    "add_evade": false,
+    "description": "How... simple.",
+    "enemy_description": " attacks you!."
+  },
+  {
+    "word_id": 4,
+    "word_name": "autism",
+    "cast_on_enemy": true,
+    "dmg": 2,
+    "periodic_dmg": 0,
+    "add_evade": false,
+    "description": "You tell the enemy, that they're autistic! That hurts...",
+    "enemy_description": " tells you, that you're autistic! That hurts..."
+  },
+  {
+    "word_id": 5,
+    "word_name": "barbarism",
+    "cast_on_enemy": true,
+    "dmg": 10,
+    "periodic_dmg": 0,
+    "add_evade": false,
+    "description": "The battle rage engulfs you.",
+    "enemy_description": " is engulfed by battle rage."
+  },
+  {
+    "word_id": 6,
+    "word_name": "baptize",
+    "cast_on_enemy": true,
+    "dmg": 6,
+    "periodic_dmg": 4,
+    "add_evade": false,
+    "description": "getting all christian i see? Lucky for you those are hellspawns.",
+    "enemy_description": " baptizes you? But... thier cross is upside down."
+  },
+  {
+    "word_id": 7,
+    "word_name": "bend",
+    "cast_on_enemy": true,
+    "dmg": 4,
+    "periodic_dmg": 2,
+    "add_evade": false,
+    "description": "You bend your enemies body to your hearts content. Now that's cruel.",
+    "enemy_description": " bends your body against your will! Now you have joints in places where they shouldn't be."
+  },
+  {
+    "word_id": 8,
+    "word_name": "bleed",
+    "cast_on_enemy": true,
+    "dmg": 0,
+    "periodic_dmg": 3,
+    "add_evade": false,
+    "description": "It can bleed. It can die.",
+    "enemy_description": " causes you to bleed. That will be devastating in the long run."
+  },
+  {
+    "word_id": 9,
+    "word_name": "burn",
+    "cast_on_enemy": true,
+    "dmg": 3,
+    "periodic_dmg": 2,
+    "add_evade": false,
+    "description": "You inflict burns of varying degrees on the enemies body.",
+    "enemy_description": " inflicts burns of varying degrees on the your body."
+  },
+  {
+    "word_id": 10,
+    "word_name": "chant",
+    "cast_on_enemy": false,
+    "dmg": -5,
+    "periodic_dmg": -3,
+    "add_evade": false,
+    "description": "You chant the prayer for your god and they relief your suffering.",
+    "enemy_description": " chant the prayer for thier god,They're looking better."
+  },
+  {
+    "word_id": 11,
+    "word_name": "chaos",
+    "cast_on_enemy": true,
+    "dmg": 5,
+    "periodic_dmg": 2,
+    "add_evade": false,
+    "description": "You cause mayhem around the enemy.",
+    "enemy_description": " causes everything around you seem as something completely different! What a chaos in your mind!"
+  },
+  {
+    "word_id": 12,
+    "word_name": "claw",
+    "cast_on_enemy": true,
+    "dmg": 5,
+    "periodic_dmg": 0,
+    "add_evade": false,
+    "description": "You turn your arms into a shrp claws and slash the enemy.",
+    "enemy_description": " slashes you with sharp claws."
+  },
+  {
+    "word_id": 13,
+    "word_name": "cruelty",
+    "cast_on_enemy": true,
+    "dmg": 6,
+    "periodic_dmg": 4,
+    "add_evade": false,
+    "description": "You rip, you tear, while bathing in thier blood.",
+    "enemy_description": " nearly skinned you. They defenitly brought you more pain than they should've."
+  },
+  {
+    "word_id": 14,
+    "word_name": "crush",
+    "cast_on_enemy": true,
+    "dmg": 5,
+    "periodic_dmg": 0,
+    "add_evade": false,
+    "description": "You crush your enemy against the wall.",
+    "enemy_description": " crushes against the wall."
+  },
+  {
+    "word_id": 15,
+    "word_name": "communism",
+    "cast_on_enemy": true,
+    "dmg": 15,
+    "periodic_dmg": 0,
+    "add_evade": false,
+    "description": " good job, comrade. That will teach them.",
+    "enemy_description": " uses the power of communism."
+  },
+  {
+    "word_id": 16,
+    "word_name": "darkness",
+    "cast_on_enemy": false,
+    "dmg": -8,
+    "periodic_dmg": 0,
+    "add_evade": true,
+    "description": "Soothung darkness covers you. They won't find you in the dark.",
+    "enemy_description": " dissapears in the dark. That will be hard to reach them now."
+  },
+  {
+    "word_id": 17,
+    "word_name": "deciet",
+    "cast_on_enemy": false,
+    "dmg": -2,
+    "periodic_dmg": 0,
+    "add_evade": true,
+    "description": " You fool the enemy. This was very satisfying. They'll target your decoy next time.",
+    "enemy_description": " looks oddly calm. Something's wrong."
+  },
+  {
+    "word_id": 18,
+    "word_name": "disintegrate",
+    "cast_on_enemy": true,
+    "dmg": 30,
+    "periodic_dmg": 0,
+    "add_evade": false,
+    "description": " Enemy's most likely to be dead at this point.",
+    "enemy_description": " tries to disintegrate you, with their magic. Safe to say that you're NOT okay."
+  },
+  {
+    "word_id": 19,
+    "word_name": "dismember",
+    "cast_on_enemy": true,
+    "dmg": 14,
+    "periodic_dmg": 0,
+    "add_evade": false,
+    "description": "You did it because it was effective, not because you liked it, right?",
+    "enemy_description": " dismembers you. Say bye bye to some of your limbs."
+  },
+  {
+    "word_id": 20,
+    "word_name": "dust",
+    "cast_on_enemy": false,
+    "dmg": 0,
+    "periodic_dmg": 0,
+    "add_evade": true,
+    "description": "You throw dust in thier eyes! Clearly they won't get you next time they attack.",
+    "enemy_description": " throws dust in your eyes. Next attack you land on them, won't make it."
+  },
+  {
+    "word_id": 21,
+    "word_name": "dodge",
+    "cast_on_enemy": false,
+    "dmg": 0,
+    "periodic_dmg": 0,
+    "add_evade": true,
+    "description": "You lock in.You will dodge the next attack.",
+    "enemy_description": " locks in.They will dodge the next attack."
+  },
+  {
+    "word_id": 22,
+    "word_name": "evade",
+    "cast_on_enemy": false,
+    "dmg": 0,
+    "periodic_dmg": 0,
+    "add_evade": true,
+    "description": "You will evade the next attack.",
+    "enemy_description": " will evade the next attack."
+  },
+  {
+    "word_id": 23,
+    "word_name": "egg",
+    "cast_on_enemy": true,
+    "dmg": 1,
+    "periodic_dmg": 0,
+    "add_evade": false,
+    "description": "Sireously? Alright you trew an egg at your enemy.",
+    "enemy_description": " throws an egg at you, not painfull, but embarrassing."
+  },
+  {
+    "word_id": 24,
+    "word_name": "energy",
+    "cast_on_enemy": false,
+    "dmg": -8,
+    "periodic_dmg": 0,
+    "add_evade": false,
+    "description": "It fills you. Feels nice.",
+    "enemy_description": " feels themselves with magic energy."
+  },
+  {
+    "word_id": 25,
+    "word_name": "electrocute",
+    "cast_on_enemy": true,
+    "dmg": 12,
+    "periodic_dmg": 0,
+    "add_evade": false,
+    "description": "They are surprisingly conductive.",
+    "enemy_description": " electrocutes you! You feel contractions in the muscles you didn't even know existed."
+  },
+  {
+    "word_id": 26,
+    "word_name": "elimination",
+    "cast_on_enemy": true,
+    "dmg": 20,
+    "periodic_dmg": 0,
+    "add_evade": false,
+    "description": "They are surprisingly conductive.",
+    "enemy_description": " electrocutes you! You feel contractions in the muscles you didn't even know existed."
+  },
+  {
+    "word_id": 27,
+    "word_name": "fireball",
+    "cast_on_enemy": true,
+    "dmg": 5,
+    "periodic_dmg": 4,
+    "add_evade": false,
+    "description": "ahh, classic.",
+    "enemy_description": " throws a big fiery ball!"
+  },
+  {
+    "word_id": 28,
+    "word_name": "firestorm",
+    "cast_on_enemy": true,
+    "dmg": 20,
+    "periodic_dmg": 6,
+    "add_evade": false,
+    "description": "You just want to see the world burn, don't you?",
+    "enemy_description": " casts firestrom. Everything is on fire. There's nothing more painful, than being burned alife."
+  },
+  {
+    "word_id": 29,
+    "word_name": "faith",
+    "cast_on_enemy": true,
+    "dmg": 6,
+    "periodic_dmg": 0,
+    "add_evade": false,
+    "description": "Your attack was blessed with divine power!",
+    "enemy_description": " uses thier faith to bless thier attack!."
+  },
+  {
+    "word_id": 30,
+    "word_name": "fence",
+    "cast_on_enemy": true,
+    "dmg": 6,
+    "periodic_dmg": 2,
+    "add_evade": false,
+    "description": "Fencing is a usefull hobbi, appparently.",
+    "enemy_description": " injures you during a fencing match."
+  },
+  {
+    "word_id": 31,
+    "word_name": "foresee",
+    "cast_on_enemy": false,
+    "dmg": 0,
+    "periodic_dmg": 0,
+    "add_evade": true,
+    "description": "Oh you so smart huh? Well, you are.You foresee enemies moves and will dodge next attack.",
+    "enemy_description": " foresees that you will attack them. They'll dodge 1 attack."
+  },
+  {
+    "word_id": 32,
+    "word_name": "gas",
+    "cast_on_enemy": true,
+    "dmg": 0,
+    "periodic_dmg": 2,
+    "add_evade": false,
+    "description": "You blow a harmful gas towards your enemy. It's not as effective as you thought.",
+    "enemy_description": " brings some strange gas upon you. It's no good for sure."
+  },
+  {
+    "word_id": 33,
+    "word_name": "gun",
+    "cast_on_enemy": true,
+    "dmg": 3,
+    "periodic_dmg": 2,
+    "add_evade": false,
+    "description": "Guns are not as effective in fantasy,don't you know?",
+    "enemy_description": " pulls the gun out of nowhere? what?"
+  },
+  {
+    "word_id": 34,
+    "word_name": "guard",
+    "cast_on_enemy": false,
+    "dmg": -2,
+    "periodic_dmg": 0,
+    "add_evade": true,
+    "description": "Nice strategy, you'll dodge next attack.",
+    "enemy_description": " is on guard. You will miss 1 time when attacking them."
+  },
+  {
+    "word_id": 35,
+    "word_name": "gale",
+    "cast_on_enemy": true,
+    "dmg": 6,
+    "periodic_dmg": 0,
+    "add_evade": false,
+    "description": "Cold wind and snow surrounds your enemy.",
+    "enemy_description": " vanishes from sight as the magic gale starts."
+  },
+  {
+    "word_id": 36,
+    "word_name": "god",
+    "cast_on_enemy": true,
+    "dmg": 8,
+    "periodic_dmg": 0,
+    "add_evade": false,
+    "description": "You hear the voice:'BE NOT AFRAID, MY CHILD'. That's divine intervention!",
+    "enemy_description": " prays, as the divine power brings its wrath upon you."
+  },
+  {
+    "word_id": 37,
+    "word_name": "heal",
+    "cast_on_enemy": false,
+    "dmg": -3,
+    "periodic_dmg": -2,
+    "add_evade": false,
+    "description": "You heal yourself with magic!",
+    "enemy_description": " heals themselves, duh."
+  },
+  {
+    "word_id": 38,
+    "word_name": "hate",
+    "cast_on_enemy": true,
+    "dmg": 1,
+    "periodic_dmg": 3,
+    "add_evade": false,
+    "description": "You tell your enemy how much you've come to HATE them, since you began to live.",
+    "enemy_description": " REALLY hates you. It's even hurt a little."
+  },
+  {
+    "word_id": 39,
+    "word_name": "hide",
+    "cast_on_enemy": false,
+    "dmg": 0,
+    "periodic_dmg": 0,
+    "add_evade": true,
+    "description": "You hide as soon as the enemy blinks",
+    "enemy_description": " dissapeard! You'll have to poke things around to find them!"
+  },
+  {
+    "word_id": 40,
+    "word_name": "hell",
+    "cast_on_enemy": true,
+    "dmg": 10,
+    "periodic_dmg": 15,
+    "add_evade": false,
+    "description": "You banish your enemy into the hellfire.",
+    "enemy_description": " sends you to hell. Lucky for you their magic isn't strong enough to keep you there forever"
+  },
+  {
+    "word_id": 41,
+    "word_name": "hurting",
+    "cast_on_enemy": true,
+    "dmg": 7,
+    "periodic_dmg": 3,
+    "add_evade": false,
+    "description": "As you say this, various scars, cuts and other wounds appear on enemies body.",
+    "enemy_description": " didn't even come close but you are hurt, noticeably hurt."
+  },
+  {
+    "word_id": 42,
+    "word_name": "infirmary",
+    "cast_on_enemy": false,
+    "dmg": -10,
+    "periodic_dmg": -2,
+    "add_evade": false,
+    "description": "Magic can do many things. Even manifest an infirmary to heal your wounds.",
+    "enemy_description": " summons the WHOLE infirmary WITH A MEDIC SQUAD. Sometimes, magic is just ridiculous."
+  },
+  {
+    "word_id": 43,
+    "word_name": "ichor",
+    "cast_on_enemy": false,
+    "dmg": 3,
+    "periodic_dmg": 3,
+    "add_evade": false,
+    "description": "Some say that the blood of the gods is poisonous to mortals.",
+    "enemy_description": " splashes you with a strange liquid. It's caustic."
+  },
+  {
+    "word_id": 44,
+    "word_name": "illusion",
+    "cast_on_enemy": false,
+    "dmg": -4,
+    "periodic_dmg": 0,
+    "add_evade": true,
+    "description": "Through illusorous magic you are able to fool your enemy, and heal while they're busy with a decoy.",
+    "enemy_description": " doesn't move? How suspicious..."
+  },
+  {
+    "word_id": 45,
+    "word_name": "icicle",
+    "cast_on_enemy": true,
+    "dmg": 4,
+    "periodic_dmg": 0,
+    "add_evade": false,
+    "description": "Don't expect a pointy piece of ice to be a good weapon.",
+    "enemy_description": " throws an icicle at you! Good for you that it's fragile."
+  },
+  {
+    "word_id": 46,
+    "word_name": "jaws",
+    "cast_on_enemy": true,
+    "dmg": 4,
+    "periodic_dmg": 2,
+    "add_evade": false,
+    "description": "Who would've guessed that your jaw can do some damage...",
+    "enemy_description": " sinks its teeth inside you. Man, those are SHARP!"
+  },
+  {
+    "word_id": 47,
+    "word_name": "howl",
+    "cast_on_enemy": true,
+    "dmg": 4,
+    "periodic_dmg": 0,
+    "add_evade": false,
+    "description": "You let out a piercing howl.",
+    "enemy_description": " howls so loud not even pluging your ears helps."
+  },
+  {
+    "word_id": 48,
+    "word_name": "judgement",
+    "cast_on_enemy": true,
+    "dmg": 10,
+    "periodic_dmg": 3,
+    "add_evade": false,
+    "description": "You are not the one to judge, God is. You just gonna send your enemy to him.",
+    "enemy_description": " is about to make you answer for your words. Prepare thyself!"
+  },
+  {
+    "word_id": 49,
+    "word_name": "justice",
+    "cast_on_enemy": true,
+    "dmg": 8,
+    "periodic_dmg": 4,
+    "add_evade": false,
+    "description": "It's only just for you to win, right?",
+    "enemy_description": " has some weird looks on justice. It just attacks!"
+  },
+  {
+    "word_id": 50,
+    "word_name": "knockout",
+    "cast_on_enemy": true,
+    "dmg": 11,
+    "periodic_dmg": 0,
+    "add_evade": false,
+    "description": "You knock out your enemy! Unfortunatly, we are not boxing in here and they got up.",
+    "enemy_description": " knocks you out! Fortunatly for you, we ain't boxing in here and as soon as you get up, battle continues."
+  },
+  {
+    "word_id": 51,
+    "word_name": "knowledge",
+    "cast_on_enemy": false,
+    "dmg": -20,
+    "periodic_dmg": 0,
+    "add_evade": true,
+    "description": "Knowledge is power, is it not?",
+    "enemy_description": " just got smarter. Dangerously smarter"
+  },
+  {
+    "word_id": 52,
+    "word_name": "kindness",
+    "cast_on_enemy": true,
+    "dmg": -7,
+    "periodic_dmg": 6,
+    "add_evade": false,
+    "description": "Do you really think you can do that in these dungeons? Well...",
+    "enemy_description": " offers you a healing? You shouldn't have trusted them."
+  },
+  {
+    "word_id": 53,
+    "word_name": "knife",
+    "cast_on_enemy": true,
+    "dmg": 5,
+    "periodic_dmg": 3,
+    "add_evade": false,
+    "description": "Simple, yet effective.",
+    "enemy_description": " stabs you."
+  },
+  {
+    "word_id": 54,
+    "word_name": "knight",
+    "cast_on_enemy": false,
+    "dmg": 7,
+    "periodic_dmg": 3,
+    "add_evade": true,
+    "description": "You summon a ghost knight to attack your enemy, but alas it's a one-time use.",
+    "enemy_description": " brings up a ghostly knight from the ground! After the attack it vanishes."
+  },
+  {
+    "word_id": 55,
+    "word_name": "bite",
+    "cast_on_enemy": true,
+    "dmg": 3,
+    "periodic_dmg": 0,
+    "add_evade": false,
+    "description": "Human's don't usually bite their enemies, but you are... special don't ya?",
+    "enemy_description": " bites your leg! That's odd and painful a bit."
+  },
+  {
+    "word_id": 56,
+    "word_name": "lightsaber",
+    "cast_on_enemy": true,
+    "dmg": 40,
+    "periodic_dmg": 0,
+    "add_evade": false,
+    "description": "Hell yeah!",
+    "enemy_description": " pulls out a F*****G LIGHTSABER! I guess your pretty mush cooked."
+  },
+  {
+    "word_id": 57,
+    "word_name": "lightning",
+    "cast_on_enemy": true,
+    "dmg": 1,
+    "periodic_dmg": 3,
+    "add_evade": false,
+    "description": "You shoot lightsing bolts from your fingertips!",
+    "enemy_description": " shoots a magic lightning at you!"
+  },
+  {
+    "word_id": 58,
+    "word_name": "legion",
+    "cast_on_enemy": true,
+    "dmg": 3,
+    "periodic_dmg": 4,
+    "add_evade": false,
+    "description": "As if one ghost wasn't enough.",
+    "enemy_description": " summons 3, no, 5... a lot of ghosts to charge into you!"
+  },
+  {
+    "word_id": 59,
+    "word_name": "light",
+    "cast_on_enemy": false,
+    "dmg": -3,
+    "periodic_dmg": 0,
+    "add_evade": true,
+    "description": "The divine light appears to heal you, it's also blinding for your enemy.",
+    "enemy_description": " is consumed by light! its so bright you don't see anything!"
+  },
+  {
+    "word_id": 60,
+    "word_name": "lullaby",
+    "cast_on_enemy": false,
+    "dmg": -5,
+    "periodic_dmg": 0,
+    "add_evade": true,
+    "description": "Soothing song heals your wounds, as your enemy becomes slow and sleepy.",
+    "enemy_description": " sings. It makes you slow and sleepy. "
+  },
+  {
+    "word_id": 61,
+    "word_name": "monster",
+    "cast_on_enemy": true,
+    "dmg": 2,
+    "periodic_dmg": 4,
+    "add_evade": false,
+    "description": "You unleash a monster from the deepest, darkest depth of your mind.",
+    "enemy_description": " releases a hideous monster to tear you apart."
+  },
+  {
+    "word_id": 62,
+    "word_name": "madness",
+    "cast_on_enemy": true,
+    "dmg": 8,
+    "periodic_dmg": 0,
+    "add_evade": false,
+    "description": "You create illusions to drive your enemy crazy.",
+    "enemy_description": " makes you see the horrors of the world. You hear a million endless whispers. Insanity takes over you."
+  },
+  {
+    "word_id": 63,
+    "word_name": "maelstrom",
+    "cast_on_enemy": true,
+    "dmg": 15,
+    "periodic_dmg": 3,
+    "add_evade": false,
+    "description": "You cuase a maelstrom to happen. Great damage is bestowed upon your enemy, as they sink into the depth.",
+    "enemy_description": " makes ground below you feel shaky. You sink into the ground as if into water and consumed by maelstrom."
+  },
+  {
+    "word_id": 64,
+    "word_name": "mayhem",
+    "cast_on_enemy": true,
+    "dmg": 10,
+    "periodic_dmg": 2,
+    "add_evade": false,
+    "description": "You cause a great chaos, from which enemy shouldn't get away.",
+    "enemy_description": " causes a great chaos, from which you might not get away."
+  },
+  {
+    "word_id": 65,
+    "word_name": "massacre",
+    "cast_on_enemy": true,
+    "dmg": 5,
+    "periodic_dmg": 4,
+    "add_evade": false,
+    "description": "How did you manage to do this if there was ONE enemy?",
+    "enemy_description": " was more cruel to you than they've had to."
+  },
+  {
+    "word_id": 66,
+    "word_name": "medicine",
+    "cast_on_enemy": false,
+    "dmg": -13,
+    "periodic_dmg": 0,
+    "add_evade": false,
+    "description": "That's the only right way to heal yourself.",
+    "enemy_description": ", surprisingly enough, knows how to treat their wounds."
+  },
+  {
+    "word_id": 67,
+    "word_name": "misfortune",
+    "cast_on_enemy": true,
+    "dmg": 4,
+    "periodic_dmg": 8,
+    "add_evade": false,
+    "description": "All they had to do was not pursue you... Calamity approaches them. ",
+    "enemy_description": " makes you feel like the flow of calamity is after you."
+  },
+  {
+    "word_id": 68,
+    "word_name": "magic",
+    "cast_on_enemy": true,
+    "dmg": 5,
+    "periodic_dmg": 0,
+    "add_evade": false,
+    "description": "Pure magic energy really can cause damage.",
+    "enemy_description": " launches a magic missile at you. That one's hot!"
+  },
+  {
+    "word_id": 69,
+    "word_name": "nails",
+    "cast_on_enemy": true,
+    "dmg": 1,
+    "periodic_dmg": 3,
+    "add_evade": false,
+    "description": "You throw sharp, rusty nails at your enemy.",
+    "enemy_description": " throws sharp, rusty nails at you."
+  },
+  {
+    "word_id": 70,
+    "word_name": "nightmare",
+    "cast_on_enemy": true,
+    "dmg": 15,
+    "periodic_dmg": 6,
+    "add_evade": false,
+    "description": "You use magic to manifest your enemies greatest fears.",
+    "enemy_description": " smiles, as you notice all your nightmares appear one after another."
+  },
+  {
+    "word_id": 71,
+    "word_name": "noose",
+    "cast_on_enemy": true,
+    "dmg": 6,
+    "periodic_dmg": 0,
+    "add_evade": false,
+    "description": "Hanging your enemy is rather cruel, and there's nothing to hang them on anyway.",
+    "enemy_description": " tries to hang you. Lucky for you, there's nothing to hang you on."
+  },
+  {
+    "word_id": 72,
+    "word_name": "omnivorousness",
+    "cast_on_enemy": true,
+    "dmg": 10,
+    "periodic_dmg": 8,
+    "add_evade": false,
+    "description": "As you say that you feel the urge to devour all. Including the enemy.",
+    "enemy_description": " jumps at you fiersly. They tear your flesh as if it were the only food left in the world."
+  },
+  {
+    "word_id": 73,
+    "word_name": "opium",
+    "cast_on_enemy": false,
+    "dmg": -7,
+    "periodic_dmg": 3,
+    "add_evade": false,
+    "description": "It might've help for now but will backfire if used to oftenly.",
+    "enemy_description": " smokes opium. That won't end well for them."
+  },
+  {
+    "word_id": 74,
+    "word_name": "poison",
+    "cast_on_enemy": true,
+    "dmg": 0,
+    "periodic_dmg": 6,
+    "add_evade": false,
+    "description": "You've managed to poison your enemy... Somehow.",
+    "enemy_description": " has managed to poison you... Somehow."
+  },
+  {
+    "word_id": 75,
+    "word_name": "prophecy",
+    "cast_on_enemy": false,
+    "dmg": -5,
+    "periodic_dmg": 0,
+    "add_evade": true,
+    "description": "You heard a prophecy about the upcoming attacks and were able to benefit from it.",
+    "enemy_description": "belives thier prophecy. No matter what, they know what attack you'll do."
+  },
+  {
+    "word_id": 76,
+    "word_name": "purgatory",
+    "cast_on_enemy": true,
+    "dmg": 6,
+    "periodic_dmg": 4,
+    "add_evade": false,
+    "description": "They shall be cleansed from their sins.",
+    "enemy_description": " sends you to purgatory for a moment, but it felt like an eternity."
+  },
+  {
+    "word_id": 77,
+    "word_name": "punch",
+    "cast_on_enemy": true,
+    "dmg": 6,
+    "periodic_dmg": 0,
+    "add_evade": false,
+    "description": "You punch your enemy!",
+    "enemy_description": " punches you!"
+  },
+  {
+    "word_id": 78,
+    "word_name": "pun",
+    "cast_on_enemy": true,
+    "dmg": 2,
+    "periodic_dmg": 0,
+    "add_evade": false,
+    "description": "Your awful pun hurts them. A little.",
+    "enemy_description": " makes a pun, you haven't heard anything this unfunny before."
+  },
+  {
+    "word_id": 79,
+    "word_name": "pipe",
+    "cast_on_enemy": true,
+    "dmg": 4,
+    "periodic_dmg": 0,
+    "add_evade": false,
+    "description": "Not smoking pipe though. You hit your enemy with metal pipe.",
+    "enemy_description": " hits you with metal pipe."
+  },
+  {
+    "word_id": 80,
+    "word_name": "nap",
+    "cast_on_enemy": false,
+    "dmg": 0,
+    "periodic_dmg": -3,
+    "add_evade": false,
+    "description": "You're lucky it's a turn based fight. Your nap was a refreshing.",
+    "enemy_description": " takes a nap... Sometimes you wonder why all fights must be turn based."
+  },
+  {
+    "word_id": 81,
+    "word_name": "quake",
+    "cast_on_enemy": true,
+    "dmg": 6,
+    "periodic_dmg": 0,
+    "add_evade": false,
+    "description": "You shatter the air like a glass, creating a shock wave. In the right hands such power could destroy the world.",
+    "enemy_description": " makes the air rumble around you."
+  },
+  {
+    "word_id": 82,
+    "word_name": "rocket",
+    "cast_on_enemy": true,
+    "dmg": 10,
+    "periodic_dmg": 8,
+    "add_evade": false,
+    "description": "Uh... whatever, its already exploded",
+    "enemy_description": " shoots a rocket at you. (Are all creatures in the dungeons this advanced?)"
+  },
+  {
+    "word_id": 83,
+    "word_name": "ram",
+    "cast_on_enemy": true,
+    "dmg": 3,
+    "periodic_dmg": 0,
+    "add_evade": false,
+    "description": "Ramming an enemy with your puny body isn't the best idea, you know.",
+    "enemy_description": " rams you with their body!"
+  },
+  {
+    "word_id": 84,
+    "word_name": "reflex",
+    "cast_on_enemy": false,
+    "dmg": -3,
+    "periodic_dmg": 0,
+    "add_evade": true,
+    "description": "You enhance your body with magic.You feel better and your rexlexes now allow you to dodge barely everything!",
+    "enemy_description": "enhances their body with magic.They feel better and their rexlexes now allow them to dodge barely everything!"
+  },
+  {
+    "word_id": 85,
+    "word_name": "rupture",
+    "cast_on_enemy": true,
+    "dmg": 7,
+    "periodic_dmg": 0,
+    "add_evade": false,
+    "description": "You use magic to rupture your enemies internal organs. Gruesome.",
+    "enemy_description": " looks at you and you feel your insides being torn apart."
+  },
+  {
+    "word_id": 86,
+    "word_name": "ravage",
+    "cast_on_enemy": true,
+    "dmg": 9,
+    "periodic_dmg": 0,
+    "add_evade": false,
+    "description": "You throw yourself into the enemy to teir them into pieces.",
+    "enemy_description": "s eyes are bloodshot. You better be able to dodge this."
+  },
+  {
+    "word_id": 87,
+    "word_name": "rats",
+    "cast_on_enemy": true,
+    "dmg": 1,
+    "periodic_dmg": 3,
+    "add_evade": false,
+    "description": "You summon a horde of rats to attack. They are definitely infectious.",
+    "enemy_description": " calls for a horde of rats to attack you. Those are definitely infectious."
+  },
+  {
+    "word_id": 88,
+    "word_name": "rot",
+    "cast_on_enemy": true,
+    "dmg": 4,
+    "periodic_dmg": 2,
+    "add_evade": false,
+    "description": "You make your enemy rot where they are.",
+    "enemy_description": " casts their spell and your body starts decaying."
+  },
+  {
+    "word_id": 89,
     "word_name": "rod",
     "cast_on_enemy": true,
     "dmg": 2,
     "periodic_dmg": 0,
     "add_evade": false,
-    "description": "you hit enemy with the rod! It deals 2 damage!",
-    "enemy_description": " hits you with the rod! It deals 2 damage!"
+    "description": "you hit enemy with the rod!",
+    "enemy_description": " hits you with the rod!"
   },
   {
-    "word_id": 2,
-    "word_name": "dor",
+    "word_id": 90,
+    "word_name": "rood",
     "cast_on_enemy": true,
-    "dmg": 5,
+    "dmg": 20,
+    "periodic_dmg": 4,
+    "add_evade": false,
+    "description": "You know, crucifying an enemy is a bit too much...",
+    "enemy_description": " crucifies you, it'll be an unspeakable pain."
+  },
+  {
+    "word_id": 91,
+    "word_name": "sword",
+    "cast_on_enemy": true,
+    "dmg": 7,
     "periodic_dmg": 0,
     "add_evade": false,
-    "description": "ahh, classic.",
-    "enemy_description": " casts fireball!"
+    "description": "You summon a sword to slash your enemy.",
+    "enemy_description": " summons a sword to slash you."
+  },
+  {
+    "word_id": 92,
+    "word_name": "spear",
+    "cast_on_enemy": true,
+    "dmg": 5,
+    "periodic_dmg": 3,
+    "add_evade": false,
+    "description": "You summon a spear to pierce your enemy.",
+    "enemy_description": " summons a spear to pierce you."
+  },
+  {
+    "word_id": 93,
+    "word_name": "safety",
+    "cast_on_enemy": false,
+    "dmg": -4,
+    "periodic_dmg": 0,
+    "add_evade": true,
+    "description": "Your magic brings you to a rather safe place, but don't let your guard down.",
+    "enemy_description": "s magic brings them somewhere, find them and finish what you must."
+  },
+  {
+    "word_id": 94,
+    "word_name": "smite",
+    "cast_on_enemy": true,
+    "dmg": 2,
+    "periodic_dmg": 3,
+    "add_evade": false,
+    "description": "Thy shall smite them!",
+    "enemy_description": " shall smite thee!"
+  },
+  {
+    "word_id": 95,
+    "word_name": "suicide",
+    "cast_on_enemy": false,
+    "dmg": 101,
+    "periodic_dmg": 0,
+    "add_evade": false,
+    "description": "I mean... if you insist",
+    "enemy_description": " kills themselves. Yea. With a person like you around i would do the same."
+  },
+  {
+    "word_id": 96,
+    "word_name": "toxin",
+    "cast_on_enemy": true,
+    "dmg": 8,
+    "periodic_dmg": 0,
+    "add_evade": false,
+    "description": "You inject deadly toxins in your opponents body.",
+    "enemy_description": "injects you with something. It makes you feel real sick."
+  },
+  {
+    "word_id": 97,
+    "word_name": "thorns",
+    "cast_on_enemy": true,
+    "dmg": 1,
+    "periodic_dmg": 3,
+    "add_evade": false,
+    "description": "Thorns grow on your body.",
+    "enemy_description": " grows sharp thorns on thier body."
+  },
+  {
+    "word_id": 98,
+    "word_name": "termination",
+    "cast_on_enemy": true,
+    "dmg": 35,
+    "periodic_dmg": 0,
+    "add_evade": false,
+    "description": "I might terminate this game session... But i won't. Enjoy this:",
+    "enemy_description": " 'terminates what?' you may ask. Your pulse of course!"
+  },
+  {
+    "word_id": 99,
+    "word_name": "tomfoolery",
+    "cast_on_enemy": false,
+    "dmg": -8,
+    "periodic_dmg": 0,
+    "add_evade": true,
+    "description": "Oh, look at you little jester! Performing some minor tomfoolery.",
+    "enemy_description": " chuckles. Thier moves become stiff and puppet-like."
+  },
+  {
+    "word_id": 100,
+    "word_name": "torture",
+    "cast_on_enemy": true,
+    "dmg": 1,
+    "periodic_dmg": 4,
+    "add_evade": false,
+    "description": "Thank god i am the one deciding how much of a torture this will be.",
+    "enemy_description": " makes you endure the heretics fork, and you should be grateful for that, honestly."
+  },
+  {
+    "word_id": 101,
+    "word_name": "torment",
+    "cast_on_enemy": true,
+    "dmg": 3,
+    "periodic_dmg": 4,
+    "add_evade": false,
+    "description": "Why this? Couldn't you do anything more humane?",
+    "enemy_description": " torments you to the point of numbness. You begin to envy the dead."
+  },
+  {
+    "word_id": 102,
+    "word_name": "vanish",
+    "cast_on_enemy": false,
+    "dmg": 0,
+    "periodic_dmg": 0,
+    "add_evade": true,
+    "description": "You vanish from their sight.",
+    "enemy_description": " just dissapears! But you feel that they're not done yet."
+  },
+  {
+    "word_id": 103,
+    "word_name": "vengeance",
+    "cast_on_enemy": true,
+    "dmg": 2,
+    "periodic_dmg": 3,
+    "add_evade": false,
+    "description": "Time to take revenge on those pesky dungeon dwellers.",
+    "enemy_description": "'s trying to take revenge for... something. "
+  },
+  {
+    "word_id": 104,
+    "word_name": "vortex",
+    "cast_on_enemy": true,
+    "dmg": 7,
+    "periodic_dmg": 0,
+    "add_evade": false,
+    "description": "The air moves at your bidding, creating a vortex that smashes enemy against the ground!",
+    "enemy_description": " bends air with their magic and is about to throw you to the ground!"
+  },
+  {
+    "word_id": 105,
+    "word_name": "violence",
+    "cast_on_enemy": true,
+    "dmg": 3,
+    "periodic_dmg": 3,
+    "add_evade": false,
+    "description": "Uh, I remind you that you came here to prove your right to speak, NOT to commit hate crimes.",
+    "enemy_description": " is being unnecessarily violent. You feel the desire for revenge."
+  },
+  {
+    "word_id": 106,
+    "word_name": "whirlpool",
+    "cast_on_enemy": true,
+    "dmg": 2,
+    "periodic_dmg": 3,
+    "add_evade": false,
+    "description": "You condence water from the air to drown your enemy in a whirlpool.",
+    "enemy_description": " creates a magic whirlpool to consume you whole. I hope you can hold your breath."
+  },
+  {
+    "word_id": 107,
+    "word_name": "zap",
+    "cast_on_enemy": true,
+    "dmg": 3,
+    "periodic_dmg": 0,
+    "add_evade": false,
+    "description": "You zap your enemy with electicity! It wasn't much of it though.",
+    "enemy_description": " zaps you. Unpleasant, but bearable."
   }
 ]

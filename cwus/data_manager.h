@@ -64,7 +64,7 @@ public:
     const bool is_last_room_;
     RoomData(int room_id, int floor, int room_type, int left_id, int right_id, int up_id, int down_id, bool is_first, bool is_last):
         room_id_(room_id), floor_(floor), room_type_(room_type), room_left_id_(left_id), room_right_id_(right_id), room_up_id_(up_id), 
-        room_down_id_(down_id), visited_(false), is_first_room_(is_first), is_last_room_(is_last){}
+        room_down_id_(down_id), visited_(is_first), is_first_room_(is_first), is_last_room_(is_last){}
     void setVisited() {
         visited_ = true;
     }

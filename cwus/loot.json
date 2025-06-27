@@ -3,22 +3,612 @@
     "floor": 0,
     "loot_list": [
       {
-        "loot_type": 2,
-        "amount_or_id": 1,
-        "chance": 10,
-        "price": 10
-      },
-      {
         "loot_type": 0,
         "amount_or_id": 10,
-        "chance": 10,
-        "price": 10
+        "chance": 293,
+        "price": 0
+      },
+      {
+        "loot_type": 1,
+        "amount_or_id": 0,
+        "chance": 17,
+        "price": 25
       },
       {
         "loot_type": 1,
         "amount_or_id": 1,
-        "chance": 10,
+        "chance": 17,
+        "price": 25
+      },
+      {
+        "loot_type": 1,
+        "amount_or_id": 2,
+        "chance": 17,
         "price": 10
+      },
+      {
+        "loot_type": 1,
+        "amount_or_id": 3,
+        "chance": 17,
+        "price": 15
+      },
+      {
+        "loot_type": 1,
+        "amount_or_id": 4,
+        "chance": 17,
+        "price": 25
+      },
+      {
+        "loot_type": 1,
+        "amount_or_id": 5,
+        "chance": 17,
+        "price": 10
+      },
+      {
+        "loot_type": 1,
+        "amount_or_id": 6,
+        "chance": 17,
+        "price": 15
+      },
+      {
+        "loot_type": 1,
+        "amount_or_id": 7,
+        "chance": 17,
+        "price": 15
+      },
+      {
+        "loot_type": 1,
+        "amount_or_id": 8,
+        "chance": 17,
+        "price": 25
+      },
+      {
+        "loot_type": 1,
+        "amount_or_id": 10,
+        "chance": 17,
+        "price": 10
+      },
+      {
+        "loot_type": 1,
+        "amount_or_id": 11,
+        "chance": 17,
+        "price": 20
+      },
+      {
+        "loot_type": 1,
+        "amount_or_id": 12,
+        "chance": 17,
+        "price": 20
+      },
+      {
+        "loot_type": 1,
+        "amount_or_id": 13,
+        "chance": 17,
+        "price": 25
+      },
+      {
+        "loot_type": 1,
+        "amount_or_id": 14,
+        "chance": 17,
+        "price": 20
+      },
+      {
+        "loot_type": 1,
+        "amount_or_id": 15,
+        "chance": 17,
+        "price": 15
+      },
+      {
+        "loot_type": 1,
+        "amount_or_id": 17,
+        "chance": 17,
+        "price": 15
+      },
+      {
+        "loot_type": 1,
+        "amount_or_id": 18,
+        "chance": 17,
+        "price": 20
+      },
+      {
+        "loot_type": 1,
+        "amount_or_id": 19,
+        "chance": 17,
+        "price": 25
+      },
+      {
+        "loot_type": 1,
+        "amount_or_id": 20,
+        "chance": 17,
+        "price": 20
+      },
+      {
+        "loot_type": 1,
+        "amount_or_id": 21,
+        "chance": 17,
+        "price": 10
+      },
+      {
+        "loot_type": 1,
+        "amount_or_id": 24,
+        "chance": 17,
+        "price": 10
+      },
+      {
+        "loot_type": 2,
+        "amount_or_id": 3,
+        "chance": 7,
+        "price": 10
+      },
+      {
+        "loot_type": 2,
+        "amount_or_id": 4,
+        "chance": 3,
+        "price": 10
+      },
+      {
+        "loot_type": 2,
+        "amount_or_id": 20,
+        "chance": 7,
+        "price": 10
+      },
+      {
+        "loot_type": 2,
+        "amount_or_id": 21,
+        "chance": 7,
+        "price": 10
+      },
+      {
+        "loot_type": 2,
+        "amount_or_id": 22,
+        "chance": 7,
+        "price": 10
+      },
+      {
+        "loot_type": 2,
+        "amount_or_id": 23,
+        "chance": 7,
+        "price": 10
+      },
+      {
+        "loot_type": 2,
+        "amount_or_id": 31,
+        "chance": 7,
+        "price": 10
+      },
+      {
+        "loot_type": 2,
+        "amount_or_id": 32,
+        "chance": 7,
+        "price": 10
+      },
+      {
+        "loot_type": 2,
+        "amount_or_id": 39,
+        "chance": 7,
+        "price": 10
+      },
+      {
+        "loot_type": 2,
+        "amount_or_id": 45,
+        "chance": 7,
+        "price": 10
+      },
+      {
+        "loot_type": 2,
+        "amount_or_id": 47,
+        "chance": 7,
+        "price": 10
+      },
+      {
+        "loot_type": 2,
+        "amount_or_id": 55,
+        "chance": 7,
+        "price": 10
+      },
+      {
+        "loot_type": 2,
+        "amount_or_id": 73,
+        "chance": 7,
+        "price": 10
+      },
+      {
+        "loot_type": 2,
+        "amount_or_id": 78,
+        "chance": 7,
+        "price": 10
+      },
+      {
+        "loot_type": 2,
+        "amount_or_id": 79,
+        "chance": 7,
+        "price": 10
+      },
+      {
+        "loot_type": 2,
+        "amount_or_id": 83,
+        "chance": 7,
+        "price": 10
+      },
+      {
+        "loot_type": 2,
+        "amount_or_id": 89,
+        "chance": 7,
+        "price": 10
+      },
+      {
+        "loot_type": 2,
+        "amount_or_id": 102,
+        "chance": 7,
+        "price": 10
+      },
+      {
+        "loot_type": 2,
+        "amount_or_id": 107,
+        "chance": 7,
+        "price": 10
+      },
+
+      {
+        "loot_type": 2,
+        "amount_or_id": 1,
+        "chance": 5,
+        "price": 15
+      },
+      {
+        "loot_type": 2,
+        "amount_or_id": 7,
+        "chance": 5,
+        "price": 15
+      },
+      {
+        "loot_type": 2,
+        "amount_or_id": 8,
+        "chance": 5,
+        "price": 15
+      },
+      {
+        "loot_type": 2,
+        "amount_or_id": 9,
+        "chance": 5,
+        "price": 15
+      },
+      {
+        "loot_type": 2,
+        "amount_or_id": 12,
+        "chance": 5,
+        "price": 15
+      },
+      {
+        "loot_type": 2,
+        "amount_or_id": 14,
+        "chance": 5,
+        "price": 15
+      },
+      {
+        "loot_type": 2,
+        "amount_or_id": 17,
+        "chance": 5,
+        "price": 15
+      },
+      {
+        "loot_type": 2,
+        "amount_or_id": 29,
+        "chance": 5,
+        "price": 15
+      },
+      {
+        "loot_type": 2,
+        "amount_or_id": 33,
+        "chance": 5,
+        "price": 15
+      },
+      {
+        "loot_type": 2,
+        "amount_or_id": 34,
+        "chance": 5,
+        "price": 15
+      },
+      {
+        "loot_type": 2,
+        "amount_or_id": 35,
+        "chance": 5,
+        "price": 15
+      },
+      {
+        "loot_type": 2,
+        "amount_or_id": 37,
+        "chance": 5,
+        "price": 15
+      },
+      {
+        "loot_type": 2,
+        "amount_or_id": 38,
+        "chance": 5,
+        "price": 15
+      },
+      {
+        "loot_type": 2,
+        "amount_or_id": 44,
+        "chance": 5,
+        "price": 15
+      },
+      {
+        "loot_type": 2,
+        "amount_or_id": 46,
+        "chance": 5,
+        "price": 15
+      },
+      {
+        "loot_type": 2,
+        "amount_or_id": 57,
+        "chance": 5,
+        "price": 15
+      },
+      {
+        "loot_type": 2,
+        "amount_or_id": 59,
+        "chance": 5,
+        "price": 15
+      },
+      {
+        "loot_type": 2,
+        "amount_or_id": 68,
+        "chance": 5,
+        "price": 15
+      },
+      {
+        "loot_type": 2,
+        "amount_or_id": 69,
+        "chance": 5,
+        "price": 15
+      },
+      {
+        "loot_type": 2,
+        "amount_or_id": 71,
+        "chance": 5,
+        "price": 15
+      },
+      {
+        "loot_type": 2,
+        "amount_or_id": 77,
+        "chance": 5,
+        "price": 15
+      },
+      {
+        "loot_type": 2,
+        "amount_or_id": 80,
+        "chance": 5,
+        "price": 15
+      },
+      {
+        "loot_type": 2,
+        "amount_or_id": 81,
+        "chance": 5,
+        "price": 15
+      },
+      {
+        "loot_type": 2,
+        "amount_or_id": 84,
+        "chance": 5,
+        "price": 15
+      },
+      {
+        "loot_type": 2,
+        "amount_or_id": 85,
+        "chance": 5,
+        "price": 15
+      },
+      {
+        "loot_type": 2,
+        "amount_or_id": 87,
+        "chance": 5,
+        "price": 15
+      },
+      {
+        "loot_type": 2,
+        "amount_or_id": 88,
+        "chance": 5,
+        "price": 15
+      },
+      {
+        "loot_type": 2,
+        "amount_or_id": 91,
+        "chance": 5,
+        "price": 15
+      },
+      {
+        "loot_type": 2,
+        "amount_or_id": 93,
+        "chance": 5,
+        "price": 15
+      },
+      {
+        "loot_type": 2,
+        "amount_or_id": 97,
+        "chance": 5,
+        "price": 15
+      },
+      {
+        "loot_type": 2,
+        "amount_or_id": 104,
+        "chance": 5,
+        "price": 15
+      },
+
+      {
+        "loot_type": 2,
+        "amount_or_id": 0,
+        "chance": 2,
+        "price": 25
+      },
+      {
+        "loot_type": 2,
+        "amount_or_id": 5,
+        "chance": 2,
+        "price": 25
+      },
+      {
+        "loot_type": 2,
+        "amount_or_id": 10,
+        "chance": 2,
+        "price": 25
+      },
+      {
+        "loot_type": 2,
+        "amount_or_id": 11,
+        "chance": 2,
+        "price": 25
+      },
+      {
+        "loot_type": 2,
+        "amount_or_id": 24,
+        "chance": 2,
+        "price": 25
+      },
+      {
+        "loot_type": 2,
+        "amount_or_id": 25,
+        "chance": 2,
+        "price": 25
+      },
+      {
+        "loot_type": 2,
+        "amount_or_id": 30,
+        "chance": 2,
+        "price": 25
+      },
+      {
+        "loot_type": 2,
+        "amount_or_id": 36,
+        "chance": 2,
+        "price": 25
+      },
+      {
+        "loot_type": 2,
+        "amount_or_id": 41,
+        "chance": 2,
+        "price": 25
+      },
+      {
+        "loot_type": 2,
+        "amount_or_id": 42,
+        "chance": 2,
+        "price": 25
+      },
+      {
+        "loot_type": 2,
+        "amount_or_id": 43,
+        "chance": 2,
+        "price": 25
+      },
+      {
+        "loot_type": 2,
+        "amount_or_id": 50,
+        "chance": 2,
+        "price": 25
+      },
+      {
+        "loot_type": 2,
+        "amount_or_id": 53,
+        "chance": 2,
+        "price": 25
+      },
+      {
+        "loot_type": 2,
+        "amount_or_id": 58,
+        "chance": 2,
+        "price": 25
+      },
+      {
+        "loot_type": 2,
+        "amount_or_id": 60,
+        "chance": 2,
+        "price": 25
+      },
+      {
+        "loot_type": 2,
+        "amount_or_id": 61,
+        "chance": 2,
+        "price": 25
+      },
+      {
+        "loot_type": 2,
+        "amount_or_id": 62,
+        "chance": 2,
+        "price": 25
+      },
+      {
+        "loot_type": 2,
+        "amount_or_id": 64,
+        "chance": 2,
+        "price": 25
+      },
+      {
+        "loot_type": 2,
+        "amount_or_id": 66,
+        "chance": 2,
+        "price": 25
+      },
+      {
+        "loot_type": 2,
+        "amount_or_id": 75,
+        "chance": 2,
+        "price": 25
+      },
+      {
+        "loot_type": 2,
+        "amount_or_id": 86,
+        "chance": 2,
+        "price": 25
+      },
+      {
+        "loot_type": 2,
+        "amount_or_id": 92,
+        "chance": 2,
+        "price": 25
+      },
+      {
+        "loot_type": 2,
+        "amount_or_id": 94,
+        "chance": 2,
+        "price": 25
+      },
+      {
+        "loot_type": 2,
+        "amount_or_id": 96,
+        "chance": 2,
+        "price": 25
+      },
+      {
+        "loot_type": 2,
+        "amount_or_id": 100,
+        "chance": 2,
+        "price": 25
+      },
+      {
+        "loot_type": 2,
+        "amount_or_id": 101,
+        "chance": 2,
+        "price": 25
+      },
+      {
+        "loot_type": 2,
+        "amount_or_id": 103,
+        "chance": 2,
+        "price": 25
+      },
+      {
+        "loot_type": 2,
+        "amount_or_id": 105,
+        "chance": 2,
+        "price": 25
+      },
+      {
+        "loot_type": 2,
+        "amount_or_id": 106,
+        "chance": 2,
+        "price": 25
       }
     ]
   },
@@ -26,18 +616,2329 @@
     "floor": 1,
     "loot_list": [
       {
+        "loot_type": 0,
+        "amount_or_id": 15,
+        "chance": 278,
+        "price": 0
+      },
+      {
         "loot_type": 1,
+        "amount_or_id": 0,
+        "chance": 12,
+        "price": 25
+      },
+      {
+        "loot_type": 1,
+        "amount_or_id": 1,
+        "chance": 15,
+        "price": 10
+      },
+      {
+        "loot_type": 1,
+        "amount_or_id": 2,
+        "chance": 15,
+        "price": 15
+      },
+      {
+        "loot_type": 1,
+        "amount_or_id": 3,
+        "chance": 15,
+        "price": 15
+      },
+      {
+        "loot_type": 1,
+        "amount_or_id": 4,
+        "chance": 12,
+        "price": 25
+      },
+      {
+        "loot_type": 1,
+        "amount_or_id": 5,
+        "chance": 15,
+        "price": 10
+      },
+      {
+        "loot_type": 1,
+        "amount_or_id": 6,
+        "chance": 15,
+        "price": 15
+      },
+      {
+        "loot_type": 1,
+        "amount_or_id": 7,
+        "chance": 15,
+        "price": 15
+      },
+      {
+        "loot_type": 1,
+        "amount_or_id": 8,
+        "chance": 12,
+        "price": 25
+      },
+      {
+        "loot_type": 1,
+        "amount_or_id": 9,
+        "chance": 13,
+        "price": 5
+      },
+      {
+        "loot_type": 1,
+        "amount_or_id": 10,
+        "chance": 15,
+        "price": 10
+      },
+      {
+        "loot_type": 1,
+        "amount_or_id": 11,
+        "chance": 15,
+        "price": 20
+      },
+      {
+        "loot_type": 1,
+        "amount_or_id": 12,
+        "chance": 15,
+        "price": 20
+      },
+      {
+        "loot_type": 1,
+        "amount_or_id": 13,
+        "chance": 12,
+        "price": 25
+      },
+      {
+        "loot_type": 1,
+        "amount_or_id": 14,
+        "chance": 15,
+        "price": 20
+      },
+      {
+        "loot_type": 1,
+        "amount_or_id": 15,
+        "chance": 15,
+        "price": 15
+      },
+      {
+        "loot_type": 1,
+        "amount_or_id": 16,
+        "chance": 13,
+        "price": 5
+      },
+      {
+        "loot_type": 1,
+        "amount_or_id": 17,
+        "chance": 12,
+        "price": 25
+      },
+      {
+        "loot_type": 1,
+        "amount_or_id": 18,
+        "chance": 15,
+        "price": 20
+      },
+      {
+        "loot_type": 1,
+        "amount_or_id": 19,
+        "chance": 12,
+        "price": 25
+      },
+      {
+        "loot_type": 1,
+        "amount_or_id": 20,
+        "chance": 15,
+        "price": 20
+      },
+      {
+        "loot_type": 1,
+        "amount_or_id": 21,
+        "chance": 15,
+        "price": 10
+      },
+      {
+        "loot_type": 1,
+        "amount_or_id": 22,
+        "chance": 13,
+        "price": 5
+      },
+      {
+        "loot_type": 1,
+        "amount_or_id": 23,
+        "chance": 13,
+        "price": 5
+      },
+      {
+        "loot_type": 1,
+        "amount_or_id": 24,
+        "chance": 15,
+        "price": 10
+      },
+      {
+        "loot_type": 1,
+        "amount_or_id": 0,
+        "chance": 17,
+        "price": 25
+      },
+      {
+        "loot_type": 1,
+        "amount_or_id": 1,
+        "chance": 17,
+        "price": 10
+      },
+      {
+        "loot_type": 1,
+        "amount_or_id": 2,
+        "chance": 17,
+        "price": 15
+      },
+      {
+        "loot_type": 1,
+        "amount_or_id": 3,
+        "chance": 17,
+        "price": 15
+      },
+      {
+        "loot_type": 1,
+        "amount_or_id": 4,
+        "chance": 17,
+        "price": 25
+      },
+      {
+        "loot_type": 1,
+        "amount_or_id": 5,
+        "chance": 17,
+        "price": 10
+      },
+      {
+        "loot_type": 1,
+        "amount_or_id": 6,
+        "chance": 17,
+        "price": 15
+      },
+      {
+        "loot_type": 1,
+        "amount_or_id": 7,
+        "chance": 17,
+        "price": 15
+      },
+      {
+        "loot_type": 1,
+        "amount_or_id": 8,
+        "chance": 17,
+        "price": 25
+      },
+      {
+        "loot_type": 1,
+        "amount_or_id": 10,
+        "chance": 17,
+        "price": 10
+      },
+      {
+        "loot_type": 1,
+        "amount_or_id": 11,
+        "chance": 17,
+        "price": 20
+      },
+      {
+        "loot_type": 1,
+        "amount_or_id": 12,
+        "chance": 17,
+        "price": 20
+      },
+      {
+        "loot_type": 1,
+        "amount_or_id": 13,
+        "chance": 17,
+        "price": 25
+      },
+      {
+        "loot_type": 1,
+        "amount_or_id": 14,
+        "chance": 17,
+        "price": 20
+      },
+      {
+        "loot_type": 1,
+        "amount_or_id": 15,
+        "chance": 17,
+        "price": 15
+      },
+      {
+        "loot_type": 1,
+        "amount_or_id": 17,
+        "chance": 17,
+        "price": 25
+      },
+      {
+        "loot_type": 1,
+        "amount_or_id": 18,
+        "chance": 17,
+        "price": 20
+      },
+      {
+        "loot_type": 1,
+        "amount_or_id": 19,
+        "chance": 17,
+        "price": 25
+      },
+      {
+        "loot_type": 1,
+        "amount_or_id": 20,
+        "chance": 17,
+        "price": 20
+      },
+      {
+        "loot_type": 1,
+        "amount_or_id": 21,
+        "chance": 17,
+        "price": 10
+      },
+      {
+        "loot_type": 1,
+        "amount_or_id": 24,
+        "chance": 17,
+        "price": 10
+      },
+      {
+        "loot_type": 2,
+        "amount_or_id": 3,
+        "chance": 3,
+        "price": 10
+      },
+      {
+        "loot_type": 2,
+        "amount_or_id": 4,
+        "chance": 1,
+        "price": 10
+      },
+      {
+        "loot_type": 2,
+        "amount_or_id": 20,
+        "chance": 3,
+        "price": 10
+      },
+      {
+        "loot_type": 2,
+        "amount_or_id": 21,
+        "chance": 3,
+        "price": 10
+      },
+      {
+        "loot_type": 2,
+        "amount_or_id": 22,
+        "chance": 3,
+        "price": 10
+      },
+      {
+        "loot_type": 2,
+        "amount_or_id": 23,
+        "chance": 3,
+        "price": 10
+      },
+      {
+        "loot_type": 2,
+        "amount_or_id": 31,
+        "chance": 3,
+        "price": 10
+      },
+      {
+        "loot_type": 2,
+        "amount_or_id": 32,
+        "chance": 3,
+        "price": 10
+      },
+      {
+        "loot_type": 2,
+        "amount_or_id": 39,
+        "chance": 3,
+        "price": 10
+      },
+      {
+        "loot_type": 2,
+        "amount_or_id": 45,
+        "chance": 3,
+        "price": 10
+      },
+      {
+        "loot_type": 2,
+        "amount_or_id": 47,
+        "chance": 3,
+        "price": 10
+      },
+      {
+        "loot_type": 2,
+        "amount_or_id": 55,
+        "chance": 3,
+        "price": 10
+      },
+      {
+        "loot_type": 2,
+        "amount_or_id": 73,
+        "chance": 3,
+        "price": 10
+      },
+      {
+        "loot_type": 2,
+        "amount_or_id": 78,
+        "chance": 3,
+        "price": 10
+      },
+      {
+        "loot_type": 2,
+        "amount_or_id": 79,
+        "chance": 3,
+        "price": 10
+      },
+      {
+        "loot_type": 2,
+        "amount_or_id": 83,
+        "chance": 3,
+        "price": 10
+      },
+      {
+        "loot_type": 2,
+        "amount_or_id": 89,
+        "chance": 3,
+        "price": 10
+      },
+      {
+        "loot_type": 2,
+        "amount_or_id": 102,
+        "chance": 3,
+        "price": 10
+      },
+      {
+        "loot_type": 2,
+        "amount_or_id": 107,
+        "chance": 3,
+        "price": 10
+      },
+
+      {
+        "loot_type": 2,
+        "amount_or_id": 1,
+        "chance": 4,
+        "price": 15
+      },
+      {
+        "loot_type": 2,
+        "amount_or_id": 7,
+        "chance": 4,
+        "price": 15
+      },
+      {
+        "loot_type": 2,
+        "amount_or_id": 8,
+        "chance": 4,
+        "price": 15
+      },
+      {
+        "loot_type": 2,
+        "amount_or_id": 9,
+        "chance": 4,
+        "price": 15
+      },
+      {
+        "loot_type": 2,
+        "amount_or_id": 12,
+        "chance": 4,
+        "price": 15
+      },
+      {
+        "loot_type": 2,
+        "amount_or_id": 14,
+        "chance": 4,
+        "price": 15
+      },
+      {
+        "loot_type": 2,
+        "amount_or_id": 17,
+        "chance": 4,
+        "price": 15
+      },
+      {
+        "loot_type": 2,
+        "amount_or_id": 29,
+        "chance": 4,
+        "price": 15
+      },
+      {
+        "loot_type": 2,
+        "amount_or_id": 33,
+        "chance": 4,
+        "price": 15
+      },
+      {
+        "loot_type": 2,
+        "amount_or_id": 34,
+        "chance": 4,
+        "price": 15
+      },
+      {
+        "loot_type": 2,
+        "amount_or_id": 35,
+        "chance": 4,
+        "price": 15
+      },
+      {
+        "loot_type": 2,
+        "amount_or_id": 37,
+        "chance": 4,
+        "price": 15
+      },
+      {
+        "loot_type": 2,
+        "amount_or_id": 38,
+        "chance": 4,
+        "price": 15
+      },
+      {
+        "loot_type": 2,
+        "amount_or_id": 44,
+        "chance": 4,
+        "price": 15
+      },
+      {
+        "loot_type": 2,
+        "amount_or_id": 46,
+        "chance": 4,
+        "price": 15
+      },
+      {
+        "loot_type": 2,
+        "amount_or_id": 57,
+        "chance": 4,
+        "price": 15
+      },
+      {
+        "loot_type": 2,
+        "amount_or_id": 59,
+        "chance": 4,
+        "price": 15
+      },
+      {
+        "loot_type": 2,
+        "amount_or_id": 68,
+        "chance": 4,
+        "price": 15
+      },
+      {
+        "loot_type": 2,
+        "amount_or_id": 69,
+        "chance": 4,
+        "price": 15
+      },
+      {
+        "loot_type": 2,
+        "amount_or_id": 71,
+        "chance": 4,
+        "price": 15
+      },
+      {
+        "loot_type": 2,
+        "amount_or_id": 77,
+        "chance": 4,
+        "price": 15
+      },
+      {
+        "loot_type": 2,
+        "amount_or_id": 80,
+        "chance": 4,
+        "price": 15
+      },
+      {
+        "loot_type": 2,
+        "amount_or_id": 81,
+        "chance": 4,
+        "price": 15
+      },
+      {
+        "loot_type": 2,
+        "amount_or_id": 84,
+        "chance": 4,
+        "price": 15
+      },
+      {
+        "loot_type": 2,
+        "amount_or_id": 85,
+        "chance": 4,
+        "price": 15
+      },
+      {
+        "loot_type": 2,
+        "amount_or_id": 87,
+        "chance": 4,
+        "price": 15
+      },
+      {
+        "loot_type": 2,
+        "amount_or_id": 88,
+        "chance": 4,
+        "price": 15
+      },
+      {
+        "loot_type": 2,
+        "amount_or_id": 91,
+        "chance": 4,
+        "price": 15
+      },
+      {
+        "loot_type": 2,
+        "amount_or_id": 93,
+        "chance": 4,
+        "price": 15
+      },
+      {
+        "loot_type": 2,
+        "amount_or_id": 97,
+        "chance": 4,
+        "price": 15
+      },
+      {
+        "loot_type": 2,
+        "amount_or_id": 104,
+        "chance": 4,
+        "price": 15
+      },
+
+      {
+        "loot_type": 2,
+        "amount_or_id": 0,
+        "chance": 4,
+        "price": 25
+      },
+      {
+        "loot_type": 2,
+        "amount_or_id": 5,
+        "chance": 4,
+        "price": 25
+      },
+      {
+        "loot_type": 2,
+        "amount_or_id": 10,
+        "chance": 4,
+        "price": 25
+      },
+      {
+        "loot_type": 2,
+        "amount_or_id": 11,
+        "chance": 4,
+        "price": 25
+      },
+      {
+        "loot_type": 2,
+        "amount_or_id": 24,
+        "chance": 4,
+        "price": 25
+      },
+      {
+        "loot_type": 2,
         "amount_or_id": 25,
-        "chance": 50,
-        "price": 100
+        "chance": 4,
+        "price": 25
+      },
+      {
+        "loot_type": 2,
+        "amount_or_id": 30,
+        "chance": 4,
+        "price": 25
+      },
+      {
+        "loot_type": 2,
+        "amount_or_id": 36,
+        "chance": 4,
+        "price": 25
+      },
+      {
+        "loot_type": 2,
+        "amount_or_id": 41,
+        "chance": 4,
+        "price": 25
+      },
+      {
+        "loot_type": 2,
+        "amount_or_id": 42,
+        "chance": 4,
+        "price": 25
+      },
+      {
+        "loot_type": 2,
+        "amount_or_id": 43,
+        "chance": 4,
+        "price": 25
+      },
+      {
+        "loot_type": 2,
+        "amount_or_id": 50,
+        "chance": 4,
+        "price": 25
+      },
+      {
+        "loot_type": 2,
+        "amount_or_id": 53,
+        "chance": 4,
+        "price": 25
+      },
+      {
+        "loot_type": 2,
+        "amount_or_id": 58,
+        "chance": 4,
+        "price": 25
+      },
+      {
+        "loot_type": 2,
+        "amount_or_id": 60,
+        "chance": 4,
+        "price": 25
+      },
+      {
+        "loot_type": 2,
+        "amount_or_id": 61,
+        "chance": 4,
+        "price": 25
+      },
+      {
+        "loot_type": 2,
+        "amount_or_id": 62,
+        "chance": 4,
+        "price": 25
+      },
+      {
+        "loot_type": 2,
+        "amount_or_id": 64,
+        "chance": 4,
+        "price": 25
+      },
+      {
+        "loot_type": 2,
+        "amount_or_id": 66,
+        "chance": 4,
+        "price": 25
+      },
+      {
+        "loot_type": 2,
+        "amount_or_id": 75,
+        "chance": 4,
+        "price": 25
+      },
+      {
+        "loot_type": 2,
+        "amount_or_id": 86,
+        "chance": 4,
+        "price": 25
+      },
+      {
+        "loot_type": 2,
+        "amount_or_id": 92,
+        "chance": 4,
+        "price": 25
+      },
+      {
+        "loot_type": 2,
+        "amount_or_id": 94,
+        "chance": 4,
+        "price": 25
+      },
+      {
+        "loot_type": 2,
+        "amount_or_id": 96,
+        "chance": 4,
+        "price": 25
+      },
+      {
+        "loot_type": 2,
+        "amount_or_id": 100,
+        "chance": 4,
+        "price": 25
+      },
+      {
+        "loot_type": 2,
+        "amount_or_id": 101,
+        "chance": 4,
+        "price": 25
+      },
+      {
+        "loot_type": 2,
+        "amount_or_id": 103,
+        "chance": 4,
+        "price": 25
+      },
+      {
+        "loot_type": 2,
+        "amount_or_id": 105,
+        "chance": 4,
+        "price": 25
+      },
+      {
+        "loot_type": 2,
+        "amount_or_id": 106,
+        "chance": 4,
+        "price": 25
+      },
+
+      {
+        "loot_type": 2,
+        "amount_or_id": 2,
+        "chance": 4,
+        "price": 30
+      },
+      {
+        "loot_type": 2,
+        "amount_or_id": 6,
+        "chance": 4,
+        "price": 30
+      },
+      {
+        "loot_type": 2,
+        "amount_or_id": 13,
+        "chance": 4,
+        "price": 30
+      },
+      {
+        "loot_type": 2,
+        "amount_or_id": 15,
+        "chance": 4,
+        "price": 30
+      },
+      {
+        "loot_type": 2,
+        "amount_or_id": 16,
+        "chance": 4,
+        "price": 30
+      },
+      {
+        "loot_type": 2,
+        "amount_or_id": 19,
+        "chance": 4,
+        "price": 30
+      },
+      {
+        "loot_type": 2,
+        "amount_or_id": 27,
+        "chance": 4,
+        "price": 30
+      },
+      {
+        "loot_type": 2,
+        "amount_or_id": 48,
+        "chance": 4,
+        "price": 30
+      },
+      {
+        "loot_type": 2,
+        "amount_or_id": 49,
+        "chance": 4,
+        "price": 30
+      },
+      {
+        "loot_type": 2,
+        "amount_or_id": 52,
+        "chance": 4,
+        "price": 30
+      },
+      {
+        "loot_type": 2,
+        "amount_or_id": 54,
+        "chance": 4,
+        "price": 30
+      },
+      {
+        "loot_type": 2,
+        "amount_or_id": 65,
+        "chance": 4,
+        "price": 30
+      },
+      {
+        "loot_type": 2,
+        "amount_or_id": 76,
+        "chance": 4,
+        "price": 30
+      },
+      {
+        "loot_type": 2,
+        "amount_or_id": 99,
+        "chance": 4,
+        "price": 30
+      }
+    ]
+  },
+  {
+    "floor": 2,
+    "loot_list": [
+      {
+        "loot_type": 0,
+        "amount_or_id": 30,
+        "chance": 275,
+        "price": 15
+      },
+      {
+        "loot_type": 1,
+        "amount_or_id": 0,
+        "chance": 14,
+        "price": 25
+      },
+      {
+        "loot_type": 1,
+        "amount_or_id": 1,
+        "chance": 14,
+        "price": 10
+      },
+      {
+        "loot_type": 1,
+        "amount_or_id": 2,
+        "chance": 14,
+        "price": 15
+      },
+      {
+        "loot_type": 1,
+        "amount_or_id": 3,
+        "chance": 14,
+        "price": 15
+      },
+      {
+        "loot_type": 1,
+        "amount_or_id": 4,
+        "chance": 14,
+        "price": 25
+      },
+      {
+        "loot_type": 1,
+        "amount_or_id": 5,
+        "chance": 14,
+        "price": 10
+      },
+      {
+        "loot_type": 1,
+        "amount_or_id": 6,
+        "chance": 14,
+        "price": 15
+      },
+      {
+        "loot_type": 1,
+        "amount_or_id": 7,
+        "chance": 14,
+        "price": 15
+      },
+      {
+        "loot_type": 1,
+        "amount_or_id": 8,
+        "chance": 14,
+        "price": 25
+      },
+      {
+        "loot_type": 1,
+        "amount_or_id": 9,
+        "chance": 14,
+        "price": 5
+      },
+      {
+        "loot_type": 1,
+        "amount_or_id": 10,
+        "chance": 14,
+        "price": 10
+      },
+      {
+        "loot_type": 1,
+        "amount_or_id": 11,
+        "chance": 14,
+        "price": 20
+      },
+      {
+        "loot_type": 1,
+        "amount_or_id": 12,
+        "chance": 14,
+        "price": 20
+      },
+      {
+        "loot_type": 1,
+        "amount_or_id": 13,
+        "chance": 14,
+        "price": 25
+      },
+      {
+        "loot_type": 1,
+        "amount_or_id": 14,
+        "chance": 14,
+        "price": 20
+      },
+      {
+        "loot_type": 1,
+        "amount_or_id": 15,
+        "chance": 14,
+        "price": 15
+      },
+      {
+        "loot_type": 1,
+        "amount_or_id": 16,
+        "chance": 14,
+        "price": 5
+      },
+      {
+        "loot_type": 1,
+        "amount_or_id": 17,
+        "chance": 14,
+        "price": 25
+      },
+      {
+        "loot_type": 1,
+        "amount_or_id": 18,
+        "chance": 14,
+        "price": 20
+      },
+      {
+        "loot_type": 1,
+        "amount_or_id": 19,
+        "chance": 14,
+        "price": 25
+      },
+      {
+        "loot_type": 1,
+        "amount_or_id": 20,
+        "chance": 14,
+        "price": 20
+      },
+      {
+        "loot_type": 1,
+        "amount_or_id": 21,
+        "chance": 14,
+        "price": 10
+      },
+      {
+        "loot_type": 1,
+        "amount_or_id": 22,
+        "chance": 14,
+        "price": 5
+      },
+      {
+        "loot_type": 1,
+        "amount_or_id": 23,
+        "chance": 14,
+        "price": 5
+      },
+      {
+        "loot_type": 1,
+        "amount_or_id": 24,
+        "chance": 14,
+        "price": 10
       },
       {
         "loot_type": 2,
         "amount_or_id": 1,
-        "chance": 20,
-        "price": 10
-      }
+        "chance": 2,
+        "price": 15
+      },
+      {
+        "loot_type": 2,
+        "amount_or_id": 7,
+        "chance": 2,
+        "price": 15
+      },
+      {
+        "loot_type": 2,
+        "amount_or_id": 8,
+        "chance": 2,
+        "price": 15
+      },
+      {
+        "loot_type": 2,
+        "amount_or_id": 9,
+        "chance": 2,
+        "price": 15
+      },
+      {
+        "loot_type": 2,
+        "amount_or_id": 12,
+        "chance": 2,
+        "price": 15
+      },
+      {
+        "loot_type": 2,
+        "amount_or_id": 14,
+        "chance": 2,
+        "price": 15
+      },
+      {
+        "loot_type": 2,
+        "amount_or_id": 17,
+        "chance": 2,
+        "price": 15
+      },
+      {
+        "loot_type": 2,
+        "amount_or_id": 29,
+        "chance": 2,
+        "price": 15
+      },
+      {
+        "loot_type": 2,
+        "amount_or_id": 33,
+        "chance": 2,
+        "price": 15
+      },
+      {
+        "loot_type": 2,
+        "amount_or_id": 34,
+        "chance": 2,
+        "price": 15
+      },
+      {
+        "loot_type": 2,
+        "amount_or_id": 35,
+        "chance": 2,
+        "price": 15
+      },
+      {
+        "loot_type": 2,
+        "amount_or_id": 37,
+        "chance": 2,
+        "price": 15
+      },
+      {
+        "loot_type": 2,
+        "amount_or_id": 38,
+        "chance": 2,
+        "price": 15
+      },
+      {
+        "loot_type": 2,
+        "amount_or_id": 44,
+        "chance": 2,
+        "price": 15
+      },
+      {
+        "loot_type": 2,
+        "amount_or_id": 46,
+        "chance": 2,
+        "price": 15
+      },
+      {
+        "loot_type": 2,
+        "amount_or_id": 57,
+        "chance": 2,
+        "price": 15
+      },
+      {
+        "loot_type": 2,
+        "amount_or_id": 59,
+        "chance": 2,
+        "price": 15
+      },
+      {
+        "loot_type": 2,
+        "amount_or_id": 68,
+        "chance": 2,
+        "price": 15
+      },
+      {
+        "loot_type": 2,
+        "amount_or_id": 69,
+        "chance": 2,
+        "price": 15
+      },
+      {
+        "loot_type": 2,
+        "amount_or_id": 71,
+        "chance": 2,
+        "price": 15
+      },
+      {
+        "loot_type": 2,
+        "amount_or_id": 77,
+        "chance": 2,
+        "price": 15
+      },
+      {
+        "loot_type": 2,
+        "amount_or_id": 80,
+        "chance": 2,
+        "price": 15
+      },
+      {
+        "loot_type": 2,
+        "amount_or_id": 81,
+        "chance": 2,
+        "price": 15
+      },
+      {
+        "loot_type": 2,
+        "amount_or_id": 84,
+        "chance": 2,
+        "price": 15
+      },
+      {
+        "loot_type": 2,
+        "amount_or_id": 85,
+        "chance": 2,
+        "price": 15
+      },
+      {
+        "loot_type": 2,
+        "amount_or_id": 87,
+        "chance": 2,
+        "price": 15
+      },
+      {
+        "loot_type": 2,
+        "amount_or_id": 88,
+        "chance": 2,
+        "price": 15
+      },
+      {
+        "loot_type": 2,
+        "amount_or_id": 91,
+        "chance": 2,
+        "price": 15
+      },
+      {
+        "loot_type": 2,
+        "amount_or_id": 93,
+        "chance": 2,
+        "price": 15
+      },
+      {
+        "loot_type": 2,
+        "amount_or_id": 97,
+        "chance": 2,
+        "price": 15
+      },
+      {
+        "loot_type": 2,
+        "amount_or_id": 104,
+        "chance": 2,
+        "price": 15
+      },
+      {
+        "loot_type": 2,
+        "amount_or_id": 0,
+        "chance": 4,
+        "price": 25
+      },
+      {
+        "loot_type": 2,
+        "amount_or_id": 5,
+        "chance": 4,
+        "price": 25
+      },
+      {
+        "loot_type": 2,
+        "amount_or_id": 10,
+        "chance": 4,
+        "price": 25
+      },
+      {
+        "loot_type": 2,
+        "amount_or_id": 11,
+        "chance": 4,
+        "price": 25
+      },
+      {
+        "loot_type": 2,
+        "amount_or_id": 24,
+        "chance": 4,
+        "price": 25
+      },
+      {
+        "loot_type": 2,
+        "amount_or_id": 25,
+        "chance": 4,
+        "price": 25
+      },
+      {
+        "loot_type": 2,
+        "amount_or_id": 30,
+        "chance": 4,
+        "price": 25
+      },
+      {
+        "loot_type": 2,
+        "amount_or_id": 36,
+        "chance": 4,
+        "price": 25
+      },
+      {
+        "loot_type": 2,
+        "amount_or_id": 41,
+        "chance": 4,
+        "price": 25
+      },
+      {
+        "loot_type": 2,
+        "amount_or_id": 42,
+        "chance": 4,
+        "price": 25
+      },
+      {
+        "loot_type": 2,
+        "amount_or_id": 43,
+        "chance": 4,
+        "price": 25
+      },
+      {
+        "loot_type": 2,
+        "amount_or_id": 50,
+        "chance": 4,
+        "price": 25
+      },
+      {
+        "loot_type": 2,
+        "amount_or_id": 53,
+        "chance": 4,
+        "price": 25
+      },
+      {
+        "loot_type": 2,
+        "amount_or_id": 58,
+        "chance": 4,
+        "price": 25
+      },
+      {
+        "loot_type": 2,
+        "amount_or_id": 60,
+        "chance": 4,
+        "price": 25
+      },
+      {
+        "loot_type": 2,
+        "amount_or_id": 61,
+        "chance": 4,
+        "price": 25
+      },
+      {
+        "loot_type": 2,
+        "amount_or_id": 62,
+        "chance": 4,
+        "price": 25
+      },
+      {
+        "loot_type": 2,
+        "amount_or_id": 64,
+        "chance": 4,
+        "price": 25
+      },
+      {
+        "loot_type": 2,
+        "amount_or_id": 66,
+        "chance": 4,
+        "price": 25
+      },
+      {
+        "loot_type": 2,
+        "amount_or_id": 75,
+        "chance": 4,
+        "price": 25
+      },
+      {
+        "loot_type": 2,
+        "amount_or_id": 86,
+        "chance": 4,
+        "price": 25
+      },
+      {
+        "loot_type": 2,
+        "amount_or_id": 92,
+        "chance": 4,
+        "price": 25
+      },
+      {
+        "loot_type": 2,
+        "amount_or_id": 94,
+        "chance": 4,
+        "price": 25
+      },
+      {
+        "loot_type": 2,
+        "amount_or_id": 96,
+        "chance": 4,
+        "price": 25
+      },
+      {
+        "loot_type": 2,
+        "amount_or_id": 100,
+        "chance": 4,
+        "price": 25
+      },
+      {
+        "loot_type": 2,
+        "amount_or_id": 101,
+        "chance": 4,
+        "price": 25
+      },
+      {
+        "loot_type": 2,
+        "amount_or_id": 103,
+        "chance": 4,
+        "price": 25
+      },
+      {
+        "loot_type": 2,
+        "amount_or_id": 105,
+        "chance": 4,
+        "price": 25
+      },
+      {
+        "loot_type": 2,
+        "amount_or_id": 106,
+        "chance": 4,
+        "price": 25
+      },
+      {
+        "loot_type": 2,
+        "amount_or_id": 2,
+        "chance": 8,
+        "price": 30
+      },
+      {
+        "loot_type": 2,
+        "amount_or_id": 6,
+        "chance": 8,
+        "price": 30
+      },
+      {
+        "loot_type": 2,
+        "amount_or_id": 13,
+        "chance": 8,
+        "price": 30
+      },
+      {
+        "loot_type": 2,
+        "amount_or_id": 16,
+        "chance": 8,
+        "price": 30
+      },
+      {
+        "loot_type": 2,
+        "amount_or_id": 19,
+        "chance": 8,
+        "price": 30
+      },
+      {
+        "loot_type": 2,
+        "amount_or_id": 27,
+        "chance": 8,
+        "price": 30
+      },
+      {
+        "loot_type": 2,
+        "amount_or_id": 48,
+        "chance": 8,
+        "price": 30
+      },
+      {
+        "loot_type": 2,
+        "amount_or_id": 49,
+        "chance": 8,
+        "price": 30
+      },
+      {
+        "loot_type": 2,
+        "amount_or_id": 52,
+        "chance": 8,
+        "price": 30
+      },
+      {
+        "loot_type": 2,
+        "amount_or_id": 54,
+        "chance": 8,
+        "price": 30
+      },
+      {
+        "loot_type": 2,
+        "amount_or_id": 65,
+        "chance": 8,
+        "price": 30
+      },
+      {
+        "loot_type": 2,
+        "amount_or_id": 76,
+        "chance": 8,
+        "price": 30
+      },
+      {
+        "loot_type": 2,
+        "amount_or_id": 99,
+        "chance": 8,
+        "price": 30
+      },
 
+      {
+        "loot_type": 2,
+        "amount_or_id": 18,
+        "chance": 4,
+        "price": 50
+      },
+      {
+        "loot_type": 2,
+        "amount_or_id": 26,
+        "chance": 4,
+        "price": 50
+      },
+      {
+        "loot_type": 2,
+        "amount_or_id": 28,
+        "chance": 4,
+        "price": 50
+      },
+      {
+        "loot_type": 2,
+        "amount_or_id": 51,
+        "chance": 4,
+        "price": 50
+      },
+      {
+        "loot_type": 2,
+        "amount_or_id": 56,
+        "chance": 4,
+        "price": 50
+      },
+      {
+        "loot_type": 2,
+        "amount_or_id": 63,
+        "chance": 4,
+        "price": 50
+      },
+      {
+        "loot_type": 2,
+        "amount_or_id": 67,
+        "chance": 4,
+        "price": 50
+      },
+      {
+        "loot_type": 2,
+        "amount_or_id": 70,
+        "chance": 4,
+        "price": 50
+      },
+      {
+        "loot_type": 2,
+        "amount_or_id": 72,
+        "chance": 4,
+        "price": 50
+      },
+      {
+        "loot_type": 2,
+        "amount_or_id": 74,
+        "chance": 4,
+        "price": 50
+      },
+      {
+        "loot_type": 2,
+        "amount_or_id": 82,
+        "chance": 4,
+        "price": 50
+      },
+      {
+        "loot_type": 2,
+        "amount_or_id": 95,
+        "chance": 4,
+        "price": 50
+      },
+      {
+        "loot_type": 2,
+        "amount_or_id": 98,
+        "chance": 4,
+        "price": 50
+      }
+    ]
+
+  },
+  {
+    "floor": 3,
+    "loot_list": [
+      {
+        "loot_type": 0,
+        "amount_or_id": 30,
+        "chance": 259,
+        "price": 0
+      },
+      {
+        "loot_type": 1,
+        "amount_or_id": 0,
+        "chance": 11,
+        "price": 25
+      },
+      {
+        "loot_type": 1,
+        "amount_or_id": 1,
+        "chance": 15,
+        "price": 10
+      },
+      {
+        "loot_type": 1,
+        "amount_or_id": 2,
+        "chance": 15,
+        "price": 15
+      },
+      {
+        "loot_type": 1,
+        "amount_or_id": 3,
+        "chance": 15,
+        "price": 15
+      },
+      {
+        "loot_type": 1,
+        "amount_or_id": 4,
+        "chance": 11,
+        "price": 25
+      },
+      {
+        "loot_type": 1,
+        "amount_or_id": 5,
+        "chance": 15,
+        "price": 10
+      },
+      {
+        "loot_type": 1,
+        "amount_or_id": 6,
+        "chance": 15,
+        "price": 15
+      },
+      {
+        "loot_type": 1,
+        "amount_or_id": 7,
+        "chance": 15,
+        "price": 15
+      },
+      {
+        "loot_type": 1,
+        "amount_or_id": 8,
+        "chance": 11,
+        "price": 25
+      },
+      {
+        "loot_type": 1,
+        "amount_or_id": 9,
+        "chance": 15,
+        "price": 5
+      },
+      {
+        "loot_type": 1,
+        "amount_or_id": 10,
+        "chance": 15,
+        "price": 10
+      },
+      {
+        "loot_type": 1,
+        "amount_or_id": 11,
+        "chance": 15,
+        "price": 20
+      },
+      {
+        "loot_type": 1,
+        "amount_or_id": 12,
+        "chance": 15,
+        "price": 20
+      },
+      {
+        "loot_type": 1,
+        "amount_or_id": 13,
+        "chance": 11,
+        "price": 25
+      },
+      {
+        "loot_type": 1,
+        "amount_or_id": 14,
+        "chance": 15,
+        "price": 20
+      },
+      {
+        "loot_type": 1,
+        "amount_or_id": 15,
+        "chance": 15,
+        "price": 15
+      },
+      {
+        "loot_type": 1,
+        "amount_or_id": 16,
+        "chance": 15,
+        "price": 5
+      },
+      {
+        "loot_type": 1,
+        "amount_or_id": 17,
+        "chance": 11,
+        "price": 25
+      },
+      {
+        "loot_type": 1,
+        "amount_or_id": 18,
+        "chance": 15,
+        "price": 20
+      },
+      {
+        "loot_type": 1,
+        "amount_or_id": 19,
+        "chance": 11,
+        "price": 25
+      },
+      {
+        "loot_type": 1,
+        "amount_or_id": 20,
+        "chance": 15,
+        "price": 20
+      },
+      {
+        "loot_type": 1,
+        "amount_or_id": 21,
+        "chance": 15,
+        "price": 10
+      },
+      {
+        "loot_type": 1,
+        "amount_or_id": 22,
+        "chance": 15,
+        "price": 5
+      },
+      {
+        "loot_type": 1,
+        "amount_or_id": 23,
+        "chance": 15,
+        "price": 5
+      },
+      {
+        "loot_type": 1,
+        "amount_or_id": 24,
+        "chance": 15,
+        "price": 10
+      },
+      {
+        "loot_type": 2,
+        "amount_or_id": 0,
+        "chance": 5,
+        "price": 25
+      },
+      {
+        "loot_type": 2,
+        "amount_or_id": 2,
+        "chance": 10,
+        "price": 30
+      },
+      {
+        "loot_type": 2,
+        "amount_or_id": 5,
+        "chance": 5,
+        "price": 25
+      },
+      {
+        "loot_type": 2,
+        "amount_or_id": 6,
+        "chance": 10,
+        "price": 30
+      },
+      {
+        "loot_type": 2,
+        "amount_or_id": 10,
+        "chance": 5,
+        "price": 25
+      },
+      {
+        "loot_type": 2,
+        "amount_or_id": 11,
+        "chance": 5,
+        "price": 25
+      },
+      {
+        "loot_type": 2,
+        "amount_or_id": 13,
+        "chance": 10,
+        "price": 30
+      },
+      {
+        "loot_type": 2,
+        "amount_or_id": 16,
+        "chance": 10,
+        "price": 30
+      },
+      {
+        "loot_type": 2,
+        "amount_or_id": 18,
+        "chance": 5,
+        "price": 50
+      },
+      {
+        "loot_type": 2,
+        "amount_or_id": 19,
+        "chance": 10,
+        "price": 30
+      },
+      {
+        "loot_type": 2,
+        "amount_or_id": 24,
+        "chance": 5,
+        "price": 25
+      },
+      {
+        "loot_type": 2,
+        "amount_or_id": 25,
+        "chance": 5,
+        "price": 25
+      },
+      {
+        "loot_type": 2,
+        "amount_or_id": 26,
+        "chance": 5,
+        "price": 50
+      },
+      {
+        "loot_type": 2,
+        "amount_or_id": 27,
+        "chance": 10,
+        "price": 30
+      },
+      {
+        "loot_type": 2,
+        "amount_or_id": 28,
+        "chance": 5,
+        "price": 50
+      },
+      {
+        "loot_type": 2,
+        "amount_or_id": 30,
+        "chance": 5,
+        "price": 25
+      },
+      {
+        "loot_type": 2,
+        "amount_or_id": 36,
+        "chance": 5,
+        "price": 25
+      },
+      {
+        "loot_type": 2,
+        "amount_or_id": 41,
+        "chance": 5,
+        "price": 25
+      },
+      {
+        "loot_type": 2,
+        "amount_or_id": 42,
+        "chance": 5,
+        "price": 25
+      },
+      {
+        "loot_type": 2,
+        "amount_or_id": 43,
+        "chance": 5,
+        "price": 25
+      },
+      {
+        "loot_type": 2,
+        "amount_or_id": 48,
+        "chance": 10,
+        "price": 30
+      },
+      {
+        "loot_type": 2,
+        "amount_or_id": 49,
+        "chance": 10,
+        "price": 30
+      },
+      {
+        "loot_type": 2,
+        "amount_or_id": 50,
+        "chance": 5,
+        "price": 25
+      },
+      {
+        "loot_type": 2,
+        "amount_or_id": 51,
+        "chance": 5,
+        "price": 50
+      },
+      {
+        "loot_type": 2,
+        "amount_or_id": 52,
+        "chance": 10,
+        "price": 30
+      },
+      {
+        "loot_type": 2,
+        "amount_or_id": 53,
+        "chance": 5,
+        "price": 25
+      },
+      {
+        "loot_type": 2,
+        "amount_or_id": 54,
+        "chance": 10,
+        "price": 30
+      },
+      {
+        "loot_type": 2,
+        "amount_or_id": 56,
+        "chance": 5,
+        "price": 50
+      },
+      {
+        "loot_type": 2,
+        "amount_or_id": 58,
+        "chance": 5,
+        "price": 25
+      },
+      {
+        "loot_type": 2,
+        "amount_or_id": 60,
+        "chance": 5,
+        "price": 25
+      },
+      {
+        "loot_type": 2,
+        "amount_or_id": 61,
+        "chance": 5,
+        "price": 25
+      },
+      {
+        "loot_type": 2,
+        "amount_or_id": 62,
+        "chance": 5,
+        "price": 25
+      },
+      {
+        "loot_type": 2,
+        "amount_or_id": 63,
+        "chance": 5,
+        "price": 50
+      },
+      {
+        "loot_type": 2,
+        "amount_or_id": 64,
+        "chance": 5,
+        "price": 25
+      },
+      {
+        "loot_type": 2,
+        "amount_or_id": 65,
+        "chance": 10,
+        "price": 30
+      },
+      {
+        "loot_type": 2,
+        "amount_or_id": 66,
+        "chance": 5,
+        "price": 25
+      },
+      {
+        "loot_type": 2,
+        "amount_or_id": 67,
+        "chance": 5,
+        "price": 50
+      },
+      {
+        "loot_type": 2,
+        "amount_or_id": 70,
+        "chance": 5,
+        "price": 50
+      },
+      {
+        "loot_type": 2,
+        "amount_or_id": 72,
+        "chance": 5,
+        "price": 50
+      },
+      {
+        "loot_type": 2,
+        "amount_or_id": 74,
+        "chance": 5,
+        "price": 50
+      },
+      {
+        "loot_type": 2,
+        "amount_or_id": 75,
+        "chance": 5,
+        "price": 25
+      },
+      {
+        "loot_type": 2,
+        "amount_or_id": 76,
+        "chance": 10,
+        "price": 30
+      },
+      {
+        "loot_type": 2,
+        "amount_or_id": 82,
+        "chance": 5,
+        "price": 50
+      },
+      {
+        "loot_type": 2,
+        "amount_or_id": 86,
+        "chance": 5,
+        "price": 25
+      },
+      {
+        "loot_type": 2,
+        "amount_or_id": 92,
+        "chance": 5,
+        "price": 25
+      },
+      {
+        "loot_type": 2,
+        "amount_or_id": 94,
+        "chance": 5,
+        "price": 25
+      },
+      {
+        "loot_type": 2,
+        "amount_or_id": 95,
+        "chance": 5,
+        "price": 50
+      },
+      {
+        "loot_type": 2,
+        "amount_or_id": 96,
+        "chance": 5,
+        "price": 25
+      },
+      {
+        "loot_type": 2,
+        "amount_or_id": 98,
+        "chance": 5,
+        "price": 50
+      },
+      {
+        "loot_type": 2,
+        "amount_or_id": 99,
+        "chance": 10,
+        "price": 30
+      },
+      {
+        "loot_type": 2,
+        "amount_or_id": 100,
+        "chance": 5,
+        "price": 25
+      },
+      {
+        "loot_type": 2,
+        "amount_or_id": 101,
+        "chance": 5,
+        "price": 25
+      },
+      {
+        "loot_type": 2,
+        "amount_or_id": 103,
+        "chance": 5,
+        "price": 25
+      },
+      {
+        "loot_type": 2,
+        "amount_or_id": 105,
+        "chance": 5,
+        "price": 25
+      },
+      {
+        "loot_type": 2,
+        "amount_or_id": 106,
+        "chance": 5,
+        "price": 25
+      }
+    ]
+  },
+  {
+    "floor": 4,
+    "loot_list": [
+      {
+        "loot_type": 0,
+        "amount_or_id": 40,
+        "chance": 265,
+        "price": 0
+      },
+      {
+        "loot_type": 1,
+        "amount_or_id": 1,
+        "chance": 18,
+        "price": 10
+      },
+      {
+        "loot_type": 1,
+        "amount_or_id": 2,
+        "chance": 18,
+        "price": 15
+      },
+      {
+        "loot_type": 1,
+        "amount_or_id": 3,
+        "chance": 18,
+        "price": 15
+      },
+      {
+        "loot_type": 1,
+        "amount_or_id": 9,
+        "chance": 18,
+        "price": 5
+      },
+      {
+        "loot_type": 1,
+        "amount_or_id": 5,
+        "chance": 18,
+        "price": 10
+      },
+      {
+        "loot_type": 1,
+        "amount_or_id": 6,
+        "chance": 18,
+        "price": 15
+      },
+      {
+        "loot_type": 1,
+        "amount_or_id": 7,
+        "chance": 18,
+        "price": 15
+      },
+      {
+        "loot_type": 1,
+        "amount_or_id": 16,
+        "chance": 18,
+        "price": 5
+      },
+      {
+        "loot_type": 1,
+        "amount_or_id": 10,
+        "chance": 18,
+        "price": 10
+      },
+      {
+        "loot_type": 1,
+        "amount_or_id": 11,
+        "chance": 18,
+        "price": 20
+      },
+      {
+        "loot_type": 1,
+        "amount_or_id": 12,
+        "chance": 18,
+        "price": 20
+      },
+      {
+        "loot_type": 1,
+        "amount_or_id": 22,
+        "chance": 18,
+        "price": 5
+      },
+      {
+        "loot_type": 1,
+        "amount_or_id": 14,
+        "chance": 18,
+        "price": 20
+      },
+      {
+        "loot_type": 1,
+        "amount_or_id": 15,
+        "chance": 18,
+        "price": 15
+      },
+      {
+        "loot_type": 1,
+        "amount_or_id": 23,
+        "chance": 18,
+        "price": 5
+      },
+      {
+        "loot_type": 1,
+        "amount_or_id": 18,
+        "chance": 18,
+        "price": 20
+      },
+      {
+        "loot_type": 1,
+        "amount_or_id": 25,
+        "chance": 18,
+        "price": 5
+      },
+      {
+        "loot_type": 1,
+        "amount_or_id": 20,
+        "chance": 18,
+        "price": 20
+      },
+      {
+        "loot_type": 1,
+        "amount_or_id": 21,
+        "chance": 18,
+        "price": 10
+      },
+      {
+        "loot_type": 1,
+        "amount_or_id": 24,
+        "chance": 18,
+        "price": 10
+      },
+      {
+        "loot_type": 2,
+        "amount_or_id": 40,
+        "chance": 100,
+        "price": 750
+      },
+      {
+        "loot_type": 2,
+        "amount_or_id": 6,
+        "chance": 5,
+        "price": 30
+      },
+      {
+        "loot_type": 2,
+        "amount_or_id": 13,
+        "chance": 5,
+        "price": 30
+      },
+      {
+        "loot_type": 2,
+        "amount_or_id": 16,
+        "chance": 5,
+        "price": 30
+      },
+      {
+        "loot_type": 2,
+        "amount_or_id": 19,
+        "chance": 5,
+        "price": 30
+      },
+      {
+        "loot_type": 2,
+        "amount_or_id": 27,
+        "chance": 5,
+        "price": 30
+      },
+      {
+        "loot_type": 2,
+        "amount_or_id": 48,
+        "chance": 5,
+        "price": 30
+      },
+      {
+        "loot_type": 2,
+        "amount_or_id": 49,
+        "chance": 5,
+        "price": 30
+      },
+      {
+        "loot_type": 2,
+        "amount_or_id": 52,
+        "chance": 5,
+        "price": 30
+      },
+      {
+        "loot_type": 2,
+        "amount_or_id": 54,
+        "chance": 5,
+        "price": 30
+      },
+      {
+        "loot_type": 2,
+        "amount_or_id": 65,
+        "chance": 5,
+        "price": 30
+      },
+      {
+        "loot_type": 2,
+        "amount_or_id": 76,
+        "chance": 5,
+        "price": 30
+      },
+      {
+        "loot_type": 2,
+        "amount_or_id": 99,
+        "chance": 5,
+        "price": 30
+      },
+
+      {
+        "loot_type": 2,
+        "amount_or_id": 18,
+        "chance": 20,
+        "price": 50
+      },
+      {
+        "loot_type": 2,
+        "amount_or_id": 26,
+        "chance": 20,
+        "price": 50
+      },
+      {
+        "loot_type": 2,
+        "amount_or_id": 28,
+        "chance": 20,
+        "price": 50
+      },
+      {
+        "loot_type": 2,
+        "amount_or_id": 40,
+        "chance": 1,
+        "price": 750
+      },
+      {
+        "loot_type": 2,
+        "amount_or_id": 51,
+        "chance": 20,
+        "price": 50
+      },
+      {
+        "loot_type": 2,
+        "amount_or_id": 56,
+        "chance": 20,
+        "price": 50
+      },
+      {
+        "loot_type": 2,
+        "amount_or_id": 63,
+        "chance": 20,
+        "price": 50
+      },
+      {
+        "loot_type": 2,
+        "amount_or_id": 67,
+        "chance": 20,
+        "price": 50
+      },
+      {
+        "loot_type": 2,
+        "amount_or_id": 70,
+        "chance": 20,
+        "price": 50
+      },
+      {
+        "loot_type": 2,
+        "amount_or_id": 72,
+        "chance": 20,
+        "price": 50
+      },
+      {
+        "loot_type": 2,
+        "amount_or_id": 74,
+        "chance": 20,
+        "price": 50
+      },
+      {
+        "loot_type": 2,
+        "amount_or_id": 82,
+        "chance": 20,
+        "price": 50
+      },
+      {
+        "loot_type": 2,
+        "amount_or_id": 90,
+        "chance": 1,
+        "price": 50
+      },
+      {
+        "loot_type": 2,
+        "amount_or_id": 95,
+        "chance": 20,
+        "price": 50
+      },
+      {
+        "loot_type": 2,
+        "amount_or_id": 98,
+        "chance": 20,
+        "price": 50
+      }
+    ]
+  },
+  {
+    "floor": 5,
+    "loot_list": [
+      {
+        "loot_type": 2,
+        "amount_or_id": 40,
+        "chance": 100,
+        "price": 750
+      }
     ]
   }
 ]

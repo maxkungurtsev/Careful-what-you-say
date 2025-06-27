@@ -4,7 +4,7 @@
 #include <numeric>
 
 constexpr int k_shop_stock_size=4;
-
+constexpr int k_hp_cap = 200;
 
 std::string toLowerCase(std::string& str) {
     std::string newstr="";
@@ -66,7 +66,12 @@ public:
         //check input
         if (std::find(available_directions.begin(), available_directions.end(), direction) == available_directions.end()) {
             std::cout << "Your choice does not correspond with any of the available ones. Random direction shall be chosen." << '\n';
-            direction = available_directions[rand() % (available_directions.size() - 1)];
+            if (available_directions.size()==5) {
+                direction = available_directions[rand() % (available_directions.size() - 1)];
+            }
+            else {
+                direction = available_directions[rand() % (available_directions.size())];
+            }
         }
         if (direction != "down") {
             std::cout << "your direction is " << direction << '\n';
@@ -76,7 +81,7 @@ public:
         case 'l': // which means direction=left
             player_manager_.setCurrentRoom(dungeon_manager_.getAllRooms()[player_manager_.getCurrentRoom()->room_left_id_]);
             break;
-        case 'u':// which means direction=up
+        case 'f':// which means direction=forward
             player_manager_.setCurrentRoom(dungeon_manager_.getAllRooms()[player_manager_.getCurrentRoom()->room_up_id_]);
             break;
         case 'r':// which means direction=right
@@ -85,7 +90,7 @@ public:
         case 'b':// which means direction=backward
             player_manager_.setCurrentRoom(dungeon_manager_.getAllRooms()[player_manager_.getCurrentRoom()->room_down_id_]);
             break;
-        case 'd':// which means direction=right
+        case 'd':// which means direction=down
             player_manager_.setCurrentRoom(dungeon_manager_.getFirstRooms()[player_manager_.getCurrentRoom()->floor_ + 1]);
             std::cout << "You venture down, onto the floor " << player_manager_.getCurrentRoom()->floor_ + 1 << '\n';
             break;
@@ -128,8 +133,8 @@ private:
                 std::cout << entity.name_ << " recieved " << entity.getPeriodicHpChange() << " Hp as periodic healing! \n";
             }
             entity.setHp(entity.getHp() - entity.getPeriodicHpChange());
-            if (entity.getHp() > entity.max_hp_) {
-                entity.setHp(entity.max_hp_);
+            if (entity.getHp() > k_hp_cap) {
+                entity.setHp(k_hp_cap);
             }
             entity.setPeriodicHpChange(entity.getPeriodicHpChange() - 1);
             return entity.getHp() > 0;
@@ -177,18 +182,32 @@ private:
     void takeAttack(EntityData& victim, int word_id) {
         //if entity can evade an attack and attack would deal damage
         if (victim.getEvade() and (words_manager_.getWords()[word_id].dmg_>0)) {
-            std::cout << victim.name_ << " dodged an attack! \n";
+            std::cout<<"But " << victim.name_ << " dodged an attack! \n";
             if (words_manager_.getWords()[word_id].periodic_dmg_ != 0) {
                 std::cout << "( " << words_manager_.getWords()[word_id].periodic_dmg_ << " overtime damage is still applied) \n";
             }
             victim.setEvade(false);
         }
         else {
+            //commentary for the player
+            if (words_manager_.getWords()[word_id].dmg_ > 0) {
+                std::cout << "It deals " << words_manager_.getWords()[word_id].dmg_ << " damage. ";
+            }else if (words_manager_.getWords()[word_id].dmg_ < 0) {
+                std::cout << "It recovers " << words_manager_.getWords()[word_id].dmg_- 2*(words_manager_.getWords()[word_id].dmg_) << "hp. ";
+            }
+            if (words_manager_.getWords()[word_id].periodic_dmg_ > 0) {
+                std::cout<< words_manager_.getWords()[word_id].periodic_dmg_ << " of overtime damage is applied.";
+            }else if (words_manager_.getWords()[word_id].periodic_dmg_ < 0) {
+                std::cout << words_manager_.getWords()[word_id].periodic_dmg_ - 2 * (words_manager_.getWords()[word_id].periodic_dmg_) << " of overtime healing is applied.";
+            }
+            std::cout << '\n';
+            // damaging/heling
             victim.setHp(victim.getHp()-(words_manager_.getWords()[word_id].dmg_));
-            if (victim.getHp() > victim.max_hp_) {
-                victim.setHp(victim.max_hp_);
+            if (victim.getHp() > k_hp_cap) {
+                victim.setHp(k_hp_cap);
             }
         }
+        // periodic damaging/heling, setting evasion possibility
         victim.setPeriodicHpChange(victim.getPeriodicHpChange()+words_manager_.getWords()[word_id].periodic_dmg_);
         victim.setEvade(words_manager_.getWords()[word_id].add_evade_);
     }
@@ -234,12 +253,15 @@ private:
                     landAttack(player, enemy, attack_id);
                 }
                 else {
-                    std::cout << "You don't have such scroll" << '\n';
+                    std::cout << "You don't have such scroll." << '\n';
                 }
             }
             else {
                 if (usable(attack_id)) {
                     landAttack(player, enemy, attack_id);
+                }
+                else {
+                    std::cout << "You don't have letters required to say this." << '\n';
                 }
             }
         }
@@ -272,7 +294,10 @@ private:
             }else {
                 if (takePeriodicDamage(enemy)) {
                     if (enemy.attack_pool_.size()>0) {
-                    landAttack(enemy, player, enemy.attack_pool_[rand() % (enemy.attack_pool_.size())]);
+                        int atk = enemy.attack_pool_[rand() % (enemy.attack_pool_.size())];
+                        std::cout << enemy.name_ << " says '"; 
+                        std::cout << words_manager_.getWords()[atk].word_name_ <<"' \n";
+                        landAttack(enemy, player, atk);
                     }
                     else {
                         std::cout << enemy.name_ << " doesn't attack! \n";
@@ -288,6 +313,11 @@ public:
         player_manager_(player_manager), entitys_manager_(entitys_manager) {
     }
     bool startBattle() {
+        player.setEvade(false);
+        player.setPeriodicHpChange(0);
+        if (player.getHp() > player.max_hp_) {
+            player.setHp(player.max_hp_);
+        }
         EntityData enemy=generateEnemy();
         return battleLoop(player, enemy);
     }
@@ -410,14 +440,16 @@ private:
             if (std::all_of(choice_str.begin(), choice_str.end(), ::isdigit)) {
                 int choice_int = std::stoi(choice_str);
                 // throw away unwanted numbers
-                if(choice_int>5 or choice_int==0){
+                if (choice_int > 5 or choice_int == 0) {
                     std::cout << "Oi matey, that's not even on the table, eh! Try again, would ya? \n";
-                }else {// actually buying
+                }
+                else {// actually buying
                     // if player already bought that one
-                    if (sold_items[choice_int-1]) {
+                    if (sold_items[choice_int - 1]) {
                         std::cout << "You've already snagged that one, mate. \n";
-                    //or he doesn't have enough money we don't sell anything
-                    }else if (player_manager_.getMoney() < shop_stock[choice_int - 1].price_) {
+                        //or he doesn't have enough money we don't sell anything
+                    }
+                    else if (player_manager_.getMoney() < shop_stock[choice_int - 1].price_) {
                         std::cout << "Ya don't have enough cash for this one, mate. \n";
                     }
                     else {
@@ -427,7 +459,8 @@ private:
                         player_manager_.setMoney(player_manager_.getMoney() - shop_stock[choice_int - 1].price_);
                     }
                 }
-            }else {
+            }
+            else {
                 std::cout << "Oi matey, that's not even on the table, eh! Try again, would ya? \n";
             }
         }
@@ -446,25 +479,26 @@ private:
     }
 public:
     EventSystem(BattleSystem& battle_system, PlayerDataAndManager& player_manager, LootManager& loot_manager, WordsManager& words_manager) :
-        battle_system_(battle_system), player_manager_(player_manager), loot_manager_(loot_manager), words_manager_(words_manager) {};
+        battle_system_(battle_system), player_manager_(player_manager), loot_manager_(loot_manager), words_manager_(words_manager) {
+    };
     bool roomEvent() {
         bool player_is_alive = true;
-        switch(player_manager_.getCurrentRoom()->room_type_){
-            case 0:
-                if (not(player_manager_.getCurrentRoom()->getVisited())) {
-                    player_is_alive = enemyEvent();
-                }
-                break;
-            case 1:
-                if (not(player_manager_.getCurrentRoom()->getVisited())) {
-                    treasureEvent();
-                }
-                break;
-            case 2:
-                shopEvent();
-                break;
-            default:
-                std::cout << "invalid roomtype while choosing event" << '\n';
+        switch (player_manager_.getCurrentRoom()->room_type_) {
+        case 0:
+            if (not(player_manager_.getCurrentRoom()->getVisited())) {
+                player_is_alive = enemyEvent();
+            }
+            break;
+        case 1:
+            if (not(player_manager_.getCurrentRoom()->getVisited())) {
+                treasureEvent();
+            }
+            break;
+        case 2:
+            shopEvent();
+            break;
+        default:
+            std::cout << "invalid roomtype while choosing event" << '\n';
         }
         player_manager_.getCurrentRoom()->setVisited();
         return player_is_alive;
@@ -486,22 +520,25 @@ void gameloop() {
     PlayerDataAndManager player_manager = PlayerDataAndManager(dungeon_manager.getAllRooms());
     MovementSystem movement_system(dungeon_manager, entitys_manager, player_manager);
     BattleSystem battle_system = BattleSystem(words_manager, player_manager, entitys_manager);
-    EventSystem event_system =EventSystem(battle_system, player_manager, loot_manager, words_manager);
+    EventSystem event_system = EventSystem(battle_system, player_manager, loot_manager, words_manager);
+    std::cout << "Welcome to the dungeons, seeker of knowledge. Your every word will affect world around you. \n So, go! Earn your right to speak! \n";
+    std::cout << "Keep an eye on your foes. Battles with them may teach you a valuable lesson!(hint) \n";
+    std::cout << " Watch your tounge, and Carefull, what you say... \n You find yourself in the first room of the dungeon. \n";
     while (event_system.roomEvent()) {
-        movement_system.moveToAnotherRoom();
+        if (player_manager.getCurrentRoom()->room_id_ != dungeon_manager.getAllRooms().back().room_id_) {
+            movement_system.moveToAnotherRoom();
+        }
+        else {
+            std::cout << "You won, young wizard, defeated all monsters lurking within the dungeon. Now you're now worthy... \n";
+            std::cout << "to Speak.";
+        }
     }
     std::cout << "GAME OVER";
 }
-
-
-
-
-
 int main() {
     gameloop();
     return 0;
 }
-
 //делать что то кроме инициализации в конструкторе no bueno
 //порядок методов
 //(не спросят НО) класс с cout не круто

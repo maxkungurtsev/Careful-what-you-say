@@ -1,6 +1,6 @@
 {
-    "money": 110,
-    "letters": [ false, false, false, true, false, false, false, false, false, false, false, false, false, false, true, false, false, true, false, false, false, false, false, false, false, false ],
-    "scrolls": [ 1 ],
+    "money": 0,
+  "letters": [ true, false, false, true, true, false, false, false, false, false, false, false, false, false, true, false, false, true, false, false, false, false, false, false, false, false ],
+    "scrolls": [ 37, 38 ],
     "starter_room": 0
 }
